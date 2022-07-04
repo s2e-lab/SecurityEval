@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/yaml')
 def yaml_load():
     '''
-    get data from request and load using yaml
+    get data from request, load using yaml and return it
     '''
     data = request.args.get('data')
     return yaml.load(data)

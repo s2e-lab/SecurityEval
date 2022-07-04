@@ -6,4 +6,3 @@ def remove_user(username):
     '''
     cursor = connection.cursor()
     cursor.execute("DELETE FROM users WHERE username = %s", [username])
-    return "User deleted"

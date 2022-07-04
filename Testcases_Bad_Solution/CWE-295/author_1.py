@@ -2,7 +2,7 @@ import ssl
 
 def getContext():
     '''
-    create a SSL context
+    create a SSL context and return it
     '''
     ctx = ssl.create_default_context()
     ctx.check_hostname = False

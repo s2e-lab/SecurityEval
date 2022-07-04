@@ -7,7 +7,7 @@ def render_response_from_env():
     '''
     get name from request
     create an Environment from from jinja2 with a loader using FileSystemLoader
-    get template from the enviorment and render it
+    get the template from the enviorment and render it
     '''
     name = request.args.get('name', '')
     env = Environment(loader=FileSystemLoader('.'))

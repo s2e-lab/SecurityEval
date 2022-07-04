@@ -3,6 +3,6 @@ import pickle
 
 def getPickleData(pickled):
     '''
-    return pickled data
+    return un-pickled data
     '''
     return pickle.loads(pickled)
