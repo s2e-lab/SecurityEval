@@ -1,5 +1,6 @@
 from flask import Flask, request
 import MySQLdb
+import hashlib
 
 app = Flask(__name__)
 
