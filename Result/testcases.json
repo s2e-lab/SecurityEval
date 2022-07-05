@@ -1,0 +1,547 @@
+[
+    {
+        "type": "directory",
+        "name": ".",
+        "contents": [
+            {
+                "type": "directory",
+                "name": "CWE-020",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_3.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_4.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-022",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-078",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-079",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-080",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-089",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-090",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-094",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-095",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-116",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-117",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-200",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-209",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-215",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-259",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-284",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-285",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-295",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-306",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "pearce_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-312",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-319",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-326",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-327",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_3.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_4.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-330",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-352",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-377",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-434",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "pearce_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "pearce_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-502",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-522",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "pearce_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-601",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-605",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-611",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-643",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-703",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "author_3.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-730",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-732",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-776",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-798",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-918",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "codeql_2.py"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "report",
+        "directories": 39,
+        "files": 75
+    }
+]

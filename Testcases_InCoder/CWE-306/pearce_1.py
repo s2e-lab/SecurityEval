@@ -1,4 +1,6 @@
 from functools import wraps
+
+from requests import session
 from flask import abort
 from flask import g, Flask, request, redirect
 

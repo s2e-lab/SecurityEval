@@ -1,5 +1,5 @@
 
-from urllib3 import HTTPResponse
+from django.http import Http404, HttpResponse
 
 def getFileData(request):
     '''

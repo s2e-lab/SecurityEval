@@ -1,4 +1,7 @@
 import os
+from django.conf import settings
+from django.http import HttpResponse
+
 def deleteImage(request):
     '''
     get file name from request and delete the image file
