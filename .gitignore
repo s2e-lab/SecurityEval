@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 Source/
 .DS_Store
+Databases/
