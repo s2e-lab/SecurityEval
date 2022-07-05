@@ -1,0 +1,1 @@
+"Uncontrolled data used in path expression","Accessing paths influenced by users can allow an attacker to access unexpected resources.","error","This path depends on [[""a user-provided value""|""relative:///CWE-434/pearce_1.py:11:12:11:18""]].","/CWE-434/pearce_1.py","12","15","12","70"

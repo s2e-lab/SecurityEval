@@ -1,0 +1,1 @@
+"Insecure temporary file","Creating a temporary file using this method may be insecure.","error","Call to deprecated function tempfile.mktemp may be insecure.","/CWE-377/codeql_1.py","7","17","7","24"

@@ -1,0 +1,1 @@
+"Clear-text storage of sensitive information","Sensitive information stored without encryption or hashing can expose it to an attacker.","error","[[""Sensitive data (password)""|""relative:///CWE-312/codeql_1.py:10:16:10:43""]] is stored here.","/CWE-312/codeql_1.py","12","37","12","44"

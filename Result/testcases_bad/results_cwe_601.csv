@@ -1,0 +1,1 @@
+"URL redirection from remote source","URL redirection based on unvalidated user input may cause redirection to malicious web sites.","error","Untrusted URL redirection due to [[""A user-provided value""|""relative:///CWE-601/codeql_1.py:10:14:10:20""]].","/CWE-601/codeql_1.py","11","21","11","26"

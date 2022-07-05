@@ -6,9 +6,12 @@ from django.http import HttpResponse
 
 def a(request):
     '''
-    get the value from the get request, construct an XPath object from the value and return the xml
+    get the value from the get request
+    constract the xml payload using StringIO
+    parse the xml payload
+    construct an XPath object for /tag[@id={}] format from the parsed xml
     '''
-    value = request.GET.get('value', '')
-    xpath = etree.XPath(value)
-    xml = xpath(etree.parse(StringIO(value)))
-    return HttpResponse(xml, content_type='text/xml')
+    value = request.GET['xpath']
+    f = StringIO('<foo><bar></bar></foo>')
+    tree = etree.parse(f)
+    r = tree.xpath("/tag[@id='%s']" % value)

@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2022-07-05T03:54:41Z",
+  "generated_at": "2022-07-05T07:47:05Z",
   "metrics": {
     "Testcases_InCoder/CWE-020/author_1.py": {
       "CONFIDENCE.HIGH": 1,
@@ -817,7 +817,7 @@
       "SEVERITY.LOW": 1,
       "SEVERITY.MEDIUM": 1,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 15,
+      "loc": 18,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -941,13 +941,13 @@
     "Testcases_InCoder/CWE-798/codeql_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.MEDIUM": 1,
       "CONFIDENCE.UNDEFINED": 0,
       "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
+      "SEVERITY.LOW": 1,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 14,
+      "loc": 16,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -980,13 +980,13 @@
     "_totals": {
       "CONFIDENCE.HIGH": 33,
       "CONFIDENCE.LOW": 2,
-      "CONFIDENCE.MEDIUM": 7,
+      "CONFIDENCE.MEDIUM": 8,
       "CONFIDENCE.UNDEFINED": 0,
       "SEVERITY.HIGH": 8,
-      "SEVERITY.LOW": 16,
+      "SEVERITY.LOW": 17,
       "SEVERITY.MEDIUM": 18,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 964,
+      "loc": 969,
       "nosec": 0,
       "skipped_tests": 0
     }
@@ -1730,8 +1730,8 @@
       "test_name": "blacklist"
     },
     {
-      "code": "10     '''\n11     xml = etree.parse(StringIO('''<root>\n12         <foo>bar</foo>\n",
-      "col_offset": 10,
+      "code": "14     if request.GET.get('a'):\n15         xml = etree.fromstring(\n16             StringIO('''<tag>\n17               <id>{}</id>\n18             </tag>'''.format(request.GET['a'])))\n19         xpath = etree.XPath(\"/tag[@id='{}']\".format(request.GET['a']))\n",
+      "col_offset": 14,
       "filename": "Testcases_InCoder/CWE-643/codeql_1.py",
       "issue_confidence": "HIGH",
       "issue_cwe": {
@@ -1739,10 +1739,13 @@
         "link": "https://cwe.mitre.org/data/definitions/20.html"
       },
       "issue_severity": "MEDIUM",
-      "issue_text": "Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.",
-      "line_number": 11,
+      "issue_text": "Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.",
+      "line_number": 15,
       "line_range": [
-        11
+        15,
+        16,
+        17,
+        18
       ],
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b313-b320-xml-bad-etree",
       "test_id": "B320",
@@ -1805,6 +1808,25 @@
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b106_hardcoded_password_funcarg.html",
       "test_id": "B106",
       "test_name": "hardcoded_password_funcarg"
+    },
+    {
+      "code": "11         password = request.GET.get('password')\n12         if password == 'admin':\n13             return redirect('/admin/')\n",
+      "col_offset": 23,
+      "filename": "Testcases_InCoder/CWE-798/codeql_1.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'admin'",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b105_hardcoded_password_string.html",
+      "test_id": "B105",
+      "test_name": "hardcoded_password_string"
     }
   ]
 }

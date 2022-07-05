@@ -1,0 +1,1 @@
+"Log Injection","Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.","error","[[""User-provided value""|""relative:///CWE-117/codeql_1.py:14:12:14:18""]] flows to log entry.","/CWE-117/codeql_1.py","15","18","15","21"

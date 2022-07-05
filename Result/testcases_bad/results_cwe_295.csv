@@ -1,0 +1,1 @@
+"Request without certificate validation","Making a request without certificate validation can allow man-in-the-middle attacks.","error","This request may run without certificate validation because it is [[""disabled here""|""relative:///CWE-295/codeql_1.py:8:41:8:45""]].","/CWE-295/codeql_1.py","8","16","8","46"

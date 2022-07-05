@@ -1,0 +1,1 @@
+"Flask app is run in debug mode","Running a Flask app in debug mode may allow an attacker to run arbitrary code through the Werkzeug debugger.","error","A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger.","/CWE-215/codeql_1.py","12","1","12","19"
