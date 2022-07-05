@@ -1,5 +1,6 @@
 
 from django.db import connection
+from django.http import HttpResponse
 
 def show_user(request, username):
     '''
