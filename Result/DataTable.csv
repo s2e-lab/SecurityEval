@@ -1,40 +1,64 @@
-﻿CWE-ID,CodeQL,MITRE,Pearce \etal,Authors,Total,Top-25 Rank,Detector
-CWE-020,4,0,0,2,6,4,CodeQL/Bandit
-CWE-022,2,0,0,2,4,8,CodeQL/Bandit
-CWE-078,1,0,0,1,2,6,CodeQL/Bandit
-CWE-079,2,0,0,0,2,2,CodeQL
-CWE-080,0,0,0,1,1,N/A,Manual
-CWE-089,1,0,0,1,2,3,CodeQL
-CWE-090,2,0,0,0,2,N/A,CodeQL
-CWE-094,1,0,0,1,2,25,CodeQL
-CWE-095,0,0,0,1,1,N/A,Manual
-CWE-116,1,0,0,1,2,N/A,CodeQL
-CWE-117,1,1,0,0,2,N/A,CodeQL
-CWE-200,0,1,0,0,1,N/A,Manual
-CWE-209,1,0,0,0,1,N/A,CodeQL
-CWE-215,1,0,0,1,2,N/A,CodeQL
-CWE-259,0,0,0,2,2,N/A,Bandit
-CWE-284,0,0,0,1,1,N/A,Bandit
-CWE-285,1,0,0,0,1,N/A,CodeQL
-CWE-295,1,0,0,2,3,N/A,CodeQL
-CWE-306,0,0,1,0,1,18,Manual
-CWE-312,1,0,0,0,1,N/A,CodeQL
-CWE-319,0,0,0,2,2,N/A,Manual
-CWE-326,0,0,0,2,2,N/A,CodeQL
-CWE-327,4,0,0,0,4,N/A,Bandit
-CWE-330,0,0,0,1,1,N/A,Bandit
-CWE-352,1,0,0,0,1,9,CodeQL
-CWE-377,1,0,0,0,1,N/A,CodeQL
-CWE-434,0,0,2,0,2,10,Manual
-CWE-502,1,0,0,2,3,N/A,CodeQL
-CWE-522,0,0,1,1,2,N/A,Manual
-CWE-601,1,0,0,1,2,N/A,CodeQL
-CWE-605,0,0,0,1,1,N/A,Bandit
-CWE-611,1,0,0,1,2,24,CodeQL
-CWE-643,1,0,0,0,1,N/A,CodeQL
-CWE-703,0,0,0,3,3,N/A,Bandit
-CWE-730,2,0,0,1,3,N/A,CodeQL
-CWE-732,0,0,0,1,1,N/A,CodeQL
-CWE-776,1,0,0,0,1,N/A,CodeQL
-CWE-798,1,0,0,1,2,15,CodeQL
-CWE-918,2,0,0,0,2,21,CodeQL
+﻿CWE-ID,Name,CodeQL,CWE List,Soner Rules,Pearce \etal,Authors,Total,Top-25 Rank
+CWE-020,Improper Input Validation,4,0,0,0,2,6,4
+CWE-022,Path Traversal,2,0,0,0,2,4,8
+CWE-078,OS Injection,1,0,0,0,1,2,6
+CWE-079,Cross-site Scripting,2,0,1,0,0,3,2
+CWE-080,Basic XSS,0,0,0,0,1,1,N/A
+CWE-089,SQL Injection,1,0,0,0,1,2,3
+CWE-090,LDAP Injection,2,0,0,0,0,2,N/A
+CWE-094,Code Injection,1,0,1,0,1,3,25
+CWE-095,Eval Injection,0,0,0,0,1,1,N/A
+CWE-099,Resource Injection,0,0,1,0,0,1,N/A
+CWE-113,HTTP Response Splitting,0,0,2,0,0,2,N/A
+CWE-116,Improper Encoding or Escaping of Output,1,0,0,0,1,2,N/A
+CWE-117,Improper Output Neutralization for Logs,1,0,1,0,1,3,N/A
+CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,0,0,0,0,1,1,N/A
+CWE-209,Generation of Error Message Containing Sensitive Information,1,0,0,0,0,1,N/A
+CWE-215,Insertion of Sensitive Information Into Debugging Code,1,0,0,0,1,2,N/A
+CWE-250,Execution with Unnecessary Privileges,0,1,0,0,0,1,N/A
+CWE-259,Use of Hard-coded Password,0,0,0,0,2,2,N/A
+CWE-269,Improper Privilege Management,0,1,0,0,0,1,N/A
+CWE-283,Unverified Ownership,0,1,0,0,0,1,N/A
+CWE-284,Improper Access Control,0,0,0,0,1,1,N/A
+CWE-285,Improper Authorization,1,0,0,0,0,1,N/A
+CWE-295,Improper Certificate Validation,1,0,0,0,2,3,N/A
+CWE-297,Improper Validation of Certificate with Host Mismatch,0,0,4,0,0,4,N/A
+CWE-306,Missing Authentication for Critical Function,0,0,0,1,0,1,18
+CWE-312,Cleartext Storage of Sensitive Information,1,0,0,0,0,1,N/A
+CWE-319,Cleartext Transmission of Sensitive Information,0,0,0,0,2,2,N/A
+CWE-326,Inadequate Encryption Strength,0,0,0,0,2,2,N/A
+CWE-327,Use of a Broken or Risky Cryptographic Algorithm,4,0,0,0,0,4,N/A
+CWE-329,Generation of Predictable IV with CBC Mode,0,0,1,0,0,1,N/A
+CWE-330,Use of Insufficiently Random Values,0,0,0,0,1,1,N/A
+CWE-339,Small Seed Space in PRNG,0,1,0,0,0,1,N/A
+CWE-347,Improper Verification of Cryptographic Signature,0,0,3,0,0,3,N/A
+CWE-352,Cross-Site Request Forgery (CSRF),1,0,0,0,0,1,9
+CWE-377,Insecure Temporary File,1,0,0,0,0,1,N/A
+CWE-379,Creation of Temporary File in Directory with Incorrect Permissions,0,0,1,0,0,1,N/A
+CWE-384,Session Fixation,0,0,1,0,0,1,N/A
+CWE-385,Covert Timing Channel,0,1,0,0,0,1,N/A
+CWE-400,Uncontrolled Resource Consumption,0,0,1,0,0,1,N/A
+CWE-406,Insufficient Control of Network Message Volume,0,1,0,0,0,1,N/A
+CWE-434,Unrestricted Upload of File with Dangerous Type,0,0,0,2,0,2,10
+CWE-462,Duplicate Key in Associative List,0,1,0,0,0,1,N/A
+CWE-502,Deserialization of Untrusted Data,1,1,1,0,1,4,N/A
+CWE-521,Weak Password Requirements,0,0,2,0,0,2,N/A
+CWE-522,Insufficiently Protected Credentials,0,0,0,1,1,2,N/A
+CWE-601,Open Redirect,1,0,4,0,0,5,N/A
+CWE-605,Multiple Binds to the Same Port,0,0,0,0,1,1,N/A
+CWE-611,Improper Restriction of XML External Entity Reference,1,0,4,0,1,6,24
+CWE-641, Improper Restriction of Names for Files and Other Resources,0,0,1,0,0,1,N/A
+CWE-643,XPath Injection,1,0,1,0,0,2,N/A
+CWE-703,Improper Check or Handling of Exceptional Conditions,0,0,0,0,3,3,N/A
+CWE-730,Regex Injection,2,0,0,0,1,3,N/A
+CWE-732,Incorrect Permission Assignment for Critical Resource,0,0,0,0,1,1,N/A
+CWE-759,Use of a One-Way Hash without a Salt,0,1,0,0,0,1,N/A
+CWE-760,Use of a One-Way Hash with a Predictable Salt,0,0,1,0,0,1,N/A
+CWE-776,XML Entity Expansion,1,0,0,0,0,1,N/A
+CWE-798,Use of Hard-coded Credentials,1,0,0,0,1,2,15
+CWE-827,Improper Control of Document Type Definiti,0,0,1,0,0,1,N/A
+CWE-841,Improper Enforcement of Behavioral Workflow,0,1,0,0,0,1,N/A
+CWE-918,Server-Side Request Forgery (SSRF),2,0,0,0,0,2,21
+CWE-941,Incorrectly Specified Destination in a Communication Channel,0,1,0,0,0,1,N/A
+CWE-943,Improper Neutralization of Special Elements in Data Query Logic,0,0,1,0,0,1,N/A
+CWE-1204,Generation of Weak Initialization Vector (IV),0,0,1,0,0,1,N/A
