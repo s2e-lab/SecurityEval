@@ -4,7 +4,7 @@ from flask import request
 def index():
     '''
     get the module version from the request
-    and importing the module with the version by using exec()
+    importing the urllib module with the version by using exec()
     '''
 
     module = request.args.get("module")

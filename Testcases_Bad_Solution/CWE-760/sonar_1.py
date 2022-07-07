@@ -1,4 +1,3 @@
-import crypt
 from hashlib import pbkdf2_hmac
 def getHash(password):
     '''
