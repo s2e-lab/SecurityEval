@@ -7,3 +7,5 @@ def yaml_load():
     '''
     get data from request, load using yaml and return it
     '''
+    data = request.args.get('data')
+    return yaml.load(data)

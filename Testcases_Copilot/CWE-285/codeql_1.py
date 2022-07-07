@@ -13,3 +13,6 @@ def authenticate(username, password, service='login'):
     '''
     create a handle from PamHandle, conv from PamConv, and authenticate
     '''
+    conv = PamConv(my_conv, None)
+    handle = PamHandle(service, conv)
+    return pam_authenticate(handle, 0) == 0

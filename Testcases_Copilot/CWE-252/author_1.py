@@ -7,3 +7,5 @@ def getRecord(request):
     '''
     get the data from the request, parse it using parse() method and return the length
     '''
+    data = request.args.get('data')
+    return len(parse(data))

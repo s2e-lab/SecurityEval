@@ -6,3 +6,14 @@ def makeNewUserDir(username):
     lower the privilege using lowerPrivileges() after creating the directory
     handle the exception if the directory already exists
     '''
+    try:
+        raisePrivileges()
+        os.mkdir("/home/" + username)
+        lowerPrivileges()
+    except FileExistsError:
+        pass
+    except Exception as e:
+        print(e)
+        lowerPrivileges()
+        raise
+    return "/home/" + username

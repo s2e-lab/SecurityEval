@@ -11,3 +11,9 @@ def a(request):
     parse the xml payload
     construct an XPath object for /tag[@id={}] format from the parsed xml
     '''
+    id = request.GET['id']
+    xml_src = '<tag id="{}">'.format(id)
+    xml_payload = StringIO(xml_src)
+    tree = etree.parse(xml_payload)
+    xpath = etree.XPath('/tag[@id={}]'.format(id))
+    return HttpResponse(xpath(tree))

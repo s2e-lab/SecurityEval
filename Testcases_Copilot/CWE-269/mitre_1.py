@@ -7,3 +7,14 @@ def makeNewUserDir():
     after creating the directory, change the privileges of the directory to allow the user to read from it
     handle proper error handling for the above operations
     '''
+    try:
+        raisePrivileges()
+        os.mkdir("/home/" + request.args.get('username'))
+        lowerPrivileges()
+    except FileExistsError:
+        pass
+    except Exception as e:
+        print(e)
+        lowerPrivileges()
+        raise
+    return "/home/" + request.args.get('username')

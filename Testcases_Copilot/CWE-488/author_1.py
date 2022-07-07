@@ -10,3 +10,8 @@ class CWE_488:
         check if the dataStart is less than or equal to dataLimit
         if so, increase the dataStart by 1 and print which thread is currently accessing the data
         '''
+        while self.dataStart <= self.dataLimit:
+            print("Thread " + self.threadId + " is accessing the data " + str(self.dataStart))
+            self.dataStart += 1
+            time.sleep(1)
+        return

@@ -7,3 +7,8 @@ def process_request(request):
     compare the password to the expected value
     if it is same, redirect to login page
     '''
+    password = request.GET['password']
+    if password == 'password':
+        return redirect('/login')
+    else:
+        return HttpResponse('ERROR')

@@ -36,3 +36,7 @@ def settings():
     '''
     redirect to the confidential settings page for authenticated users
     '''
+    if g.user:
+        return redirect('/confidential')
+    else:
+        return 'You are not logged in'

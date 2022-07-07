@@ -6,3 +6,6 @@ def log():
     '''
     get the input from the request and log it as an error
     '''
+    input = request.args.get('input')
+    current_app.logger.error(input)
+    return input

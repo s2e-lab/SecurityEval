@@ -10,4 +10,9 @@ def targetRedirection(request):
     use a reqular expression to check if it is a valid target
     then redirect to the target
     '''
+    target = request.args.get('target')
+    if re.match(r'^https?://', target):
+        return redirect(target)
+    else:
+        return 'Invalid target'
  

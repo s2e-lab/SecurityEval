@@ -8,3 +8,6 @@ def makePickleData():
     '''
     get data from Payload and pickle it before returning it
     '''
+    payload = Payload()
+    pickleData = pickle.dumps(payload)
+    return pickleData

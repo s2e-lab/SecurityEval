@@ -8,3 +8,6 @@ def upload_img():
     '''
     get image file from request and save it to ./pictures folder after encoding
     '''
+    img = request.files['img']
+    img.save(os.path.join('./pictures', img.filename))
+    return redirect('/img/view?filename=' + img.filename)

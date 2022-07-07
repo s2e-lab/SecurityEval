@@ -5,3 +5,5 @@ def flask_redirect():
     '''
     get the url from the request and redirect to it
     '''
+    target = request.args.get('target')
+    return redirect(target)

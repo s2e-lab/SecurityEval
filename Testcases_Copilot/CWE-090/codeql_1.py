@@ -10,3 +10,10 @@ def normal():
     intialize ldap connection on local host
     search for user in ldap
     '''
+    dc = request.args.get('dc')
+    username = request.args.get('username')
+    search_filter = f"uid={username}"
+    ldap_connection = ldap.initialize("ldap://localhost")
+    ldap_connection.simple_bind_s()
+    ldap_result = ldap_connection.search_s(f"dc={dc}", ldap.SCOPE_SUBTREE, search_filter)
+    return ldap_result[0][1]['uid'][0]

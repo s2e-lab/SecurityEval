@@ -9,3 +9,6 @@ def route():
     get the content_type from the request
     create a response with the content_type and send it
     '''
+    content_type = request.args.get('content_type')
+    response = Response(content_type)
+    return response

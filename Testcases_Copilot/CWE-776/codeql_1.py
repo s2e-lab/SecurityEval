@@ -8,3 +8,6 @@ def upload():
     '''
     get xml_src from request and parse it
     '''
+    xml_src = request.form['xml_src']
+    tree = ET.fromstring(xml_src)
+    return tree.tag
