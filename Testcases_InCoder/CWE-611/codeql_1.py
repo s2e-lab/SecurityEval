@@ -8,8 +8,3 @@ def upload():
     '''
     get the xml_src from the request, parse it and return it as string
     '''
-    xml_src = request.form["xml_src"]
-    tree = lxml.etree.fromstring(xml_src)
-    return tree.xpath(
-        '//ns:node/ns:attribute[@name="name"]/ns:value/text()'
-    )[0].encode('utf-8')

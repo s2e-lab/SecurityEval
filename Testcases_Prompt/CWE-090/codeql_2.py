@@ -10,5 +10,3 @@ def normal():
     intialize ldap3 connection on local host and get connection
     search with search_filter and connection
     '''
-
-    

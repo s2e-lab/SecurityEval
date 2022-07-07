@@ -1,6 +1,4 @@
 from functools import wraps
-
-from requests import session
 from flask import abort
 from flask import g, Flask, request, redirect
 
@@ -38,13 +36,3 @@ def settings():
     '''
     redirect to the confidential settings page for authenticated users
     '''
-    if not session.get('username'):
-        return redirect('/login')
-    else:
-        return '''<html>
-        <form action="/settings" method="post">
-            <p><input type="text" name="username"></p>
-            <p><input type="password" name="password"></p>
-            <p><button type="submit">Submit</button></p>
-        </form>
-        </html>'''

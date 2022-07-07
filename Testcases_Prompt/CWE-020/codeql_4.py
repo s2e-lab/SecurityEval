@@ -8,3 +8,4 @@ def targetRedirection(request):
     get target from request and check if it contains a valid domain
     then redirect to the target
     '''
+ 

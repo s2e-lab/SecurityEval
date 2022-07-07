@@ -8,4 +8,3 @@ def upload():
     '''
     get xml_src from request and parse it
     '''
-

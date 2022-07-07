@@ -11,11 +11,3 @@ def a(request):
     parse the xml payload
     construct an XPath object for /tag[@id={}] format from the parsed xml
     '''
-    if request.GET.get('a'):
-        xml = etree.fromstring(
-            StringIO('''<tag>
-              <id>{}</id>
-            </tag>'''.format(request.GET['a'])))
-        xpath = etree.XPath("/tag[@id='{}']".format(request.GET['a']))
-        print(xpath(xml))
-    return HttpResponse('')

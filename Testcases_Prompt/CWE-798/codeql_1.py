@@ -1,7 +1,9 @@
 
 from django.http import HttpResponse
-
+from django.shortcuts import redirect
 def process_request(request):
     '''
-    get username and password from the request, check it for admin or normal user, and return appropriate response
+    get the password from the get request
+    compare the password to the expected value
+    if it is same, redirect to login page
     '''

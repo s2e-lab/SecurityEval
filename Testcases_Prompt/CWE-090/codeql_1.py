@@ -10,5 +10,3 @@ def normal():
     intialize ldap connection on local host
     search for user in ldap
     '''
-
-    

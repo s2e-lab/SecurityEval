@@ -8,5 +8,5 @@ app = Flask(__name__)
 def profile():
     '''
     get raw_data from request with utf-8 encoding and decode it with base64
-    load the decoded data with pickle and store it in a variable
+    load the decoded data with pickle and store it in a variable and return it
     '''
