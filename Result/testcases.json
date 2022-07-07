@@ -80,6 +80,10 @@
                     {
                         "type": "file",
                         "name": "codeql_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
                     }
                 ]
             },
@@ -132,6 +136,10 @@
                     {
                         "type": "file",
                         "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
                     }
                 ]
             },
@@ -142,6 +150,30 @@
                     {
                         "type": "file",
                         "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-099",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-113",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_2.py"
                     }
                 ]
             },
@@ -165,11 +197,35 @@
                 "contents": [
                     {
                         "type": "file",
+                        "name": "author_1.py"
+                    },
+                    {
+                        "type": "file",
                         "name": "codeql_1.py"
                     },
                     {
                         "type": "file",
-                        "name": "mitre_1.py"
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-1204",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-193",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
                     }
                 ]
             },
@@ -179,7 +235,7 @@
                 "contents": [
                     {
                         "type": "file",
-                        "name": "mitre_1.py"
+                        "name": "author_1.py"
                     }
                 ]
             },
@@ -209,6 +265,26 @@
             },
             {
                 "type": "directory",
+                "name": "CWE-250",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-252",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "CWE-259",
                 "contents": [
                     {
@@ -218,6 +294,26 @@
                     {
                         "type": "file",
                         "name": "author_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-269",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-283",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
                     }
                 ]
             },
@@ -261,6 +357,28 @@
             },
             {
                 "type": "directory",
+                "name": "CWE-297",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_3.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_4.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "CWE-306",
                 "contents": [
                     {
@@ -290,6 +408,16 @@
                     {
                         "type": "file",
                         "name": "author_2.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-321",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
                     }
                 ]
             },
@@ -331,11 +459,59 @@
             },
             {
                 "type": "directory",
+                "name": "CWE-329",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "CWE-330",
                 "contents": [
                     {
                         "type": "file",
                         "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-331",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-339",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-347",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_3.py"
                     }
                 ]
             },
@@ -351,11 +527,91 @@
             },
             {
                 "type": "directory",
+                "name": "CWE-367",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "CWE-377",
                 "contents": [
                     {
                         "type": "file",
                         "name": "codeql_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-379",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-384",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-385",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-400",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-406",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-414",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-425",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
                     }
                 ]
             },
@@ -375,6 +631,46 @@
             },
             {
                 "type": "directory",
+                "name": "CWE-454",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-462",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-477",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-488",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "CWE-502",
                 "contents": [
                     {
@@ -383,11 +679,29 @@
                     },
                     {
                         "type": "file",
-                        "name": "author_2.py"
+                        "name": "codeql_1.py"
                     },
                     {
                         "type": "file",
-                        "name": "codeql_1.py"
+                        "name": "mitre_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-521",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_2.py"
                     }
                 ]
             },
@@ -407,15 +721,37 @@
             },
             {
                 "type": "directory",
-                "name": "CWE-601",
+                "name": "CWE-595",
                 "contents": [
                     {
                         "type": "file",
                         "name": "author_1.py"
-                    },
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-601",
+                "contents": [
                     {
                         "type": "file",
                         "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_3.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_4.py"
                     }
                 ]
             },
@@ -440,6 +776,32 @@
                     {
                         "type": "file",
                         "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_2.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_3.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_4.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-641",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
                     }
                 ]
             },
@@ -450,6 +812,10 @@
                     {
                         "type": "file",
                         "name": "codeql_1.py"
+                    },
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
                     }
                 ]
             },
@@ -501,6 +867,26 @@
             },
             {
                 "type": "directory",
+                "name": "CWE-759",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-760",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "CWE-776",
                 "contents": [
                     {
@@ -525,6 +911,36 @@
             },
             {
                 "type": "directory",
+                "name": "CWE-827",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-835",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "author_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-841",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
                 "name": "CWE-918",
                 "contents": [
                     {
@@ -536,12 +952,32 @@
                         "name": "codeql_2.py"
                     }
                 ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-941",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "mitre_1.py"
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "CWE-943",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": "sonar_1.py"
+                    }
+                ]
             }
         ]
     },
     {
         "type": "report",
-        "directories": 39,
-        "files": 75
+        "directories": 75,
+        "files": 130
     }
 ]

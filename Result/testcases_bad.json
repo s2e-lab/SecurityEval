@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2022-07-05T07:46:33Z",
+  "generated_at": "2022-07-07T18:37:43Z",
   "metrics": {
     "Testcases_Bad_Solution/CWE-020/author_1.py": {
       "CONFIDENCE.HIGH": 1,
@@ -11,7 +11,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 1,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 7,
+      "loc": 9,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -50,7 +50,7 @@
       "SEVERITY.LOW": 1,
       "SEVERITY.MEDIUM": 1,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 13,
+      "loc": 14,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -63,7 +63,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 13,
+      "loc": 14,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -184,6 +184,19 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-079/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-080/author_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
@@ -193,7 +206,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 10,
+      "loc": 11,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -275,6 +288,19 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-094/sonar_1.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-095/author_1.py": {
       "CONFIDENCE.HIGH": 1,
       "CONFIDENCE.LOW": 0,
@@ -285,6 +311,45 @@
       "SEVERITY.MEDIUM": 1,
       "SEVERITY.UNDEFINED": 0,
       "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-099/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-113/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 15,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-113/sonar_2.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -314,6 +379,19 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-117/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 13,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-117/codeql_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
@@ -327,7 +405,7 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "Testcases_Bad_Solution/CWE-117/mitre_1.py": {
+    "Testcases_Bad_Solution/CWE-117/sonar_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -336,11 +414,37 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 13,
+      "loc": 9,
       "nosec": 0,
       "skipped_tests": 0
     },
-    "Testcases_Bad_Solution/CWE-200/mitre_1.py": {
+    "Testcases_Bad_Solution/CWE-1204/sonar_1.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-193/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-200/author_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 1,
       "CONFIDENCE.MEDIUM": 0,
@@ -392,6 +496,32 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-250/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 16,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-252/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-259/author_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
@@ -412,6 +542,32 @@
       "CONFIDENCE.UNDEFINED": 0,
       "SEVERITY.HIGH": 0,
       "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-269/mitre_1.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 17,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-283/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
       "loc": 6,
@@ -483,6 +639,58 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-297/sonar_1.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 7,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-297/sonar_2.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-297/sonar_3.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 8,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-297/sonar_4.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 8,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-306/pearce_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
@@ -532,6 +740,19 @@
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
       "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-321/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -613,6 +834,19 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-329/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-330/author_1.py": {
       "CONFIDENCE.HIGH": 1,
       "CONFIDENCE.LOW": 0,
@@ -620,6 +854,71 @@
       "CONFIDENCE.UNDEFINED": 0,
       "SEVERITY.HIGH": 0,
       "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-331/author_1.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 7,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-339/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-347/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-347/sonar_2.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-347/sonar_3.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
       "loc": 6,
@@ -639,6 +938,19 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-367/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-377/codeql_1.py": {
       "CONFIDENCE.HIGH": 1,
       "CONFIDENCE.LOW": 0,
@@ -649,6 +961,97 @@
       "SEVERITY.MEDIUM": 1,
       "SEVERITY.UNDEFINED": 0,
       "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-379/sonar_1.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-384/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-385/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-400/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-406/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 15,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-414/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 14,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-425/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -678,6 +1081,58 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-454/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 13,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-462/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-477/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 7,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-488/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 16,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-502/author_1.py": {
       "CONFIDENCE.HIGH": 1,
       "CONFIDENCE.LOW": 0,
@@ -691,7 +1146,33 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "Testcases_Bad_Solution/CWE-502/author_2.py": {
+    "Testcases_Bad_Solution/CWE-502/codeql_1.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 7,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-502/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 15,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-502/sonar_1.py": {
       "CONFIDENCE.HIGH": 1,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -704,16 +1185,29 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "Testcases_Bad_Solution/CWE-502/codeql_1.py": {
-      "CONFIDENCE.HIGH": 2,
+    "Testcases_Bad_Solution/CWE-521/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
       "CONFIDENCE.UNDEFINED": 0,
       "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 1,
-      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
       "loc": 7,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-521/sonar_2.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 13,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -743,7 +1237,33 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "Testcases_Bad_Solution/CWE-601/author_1.py": {
+    "Testcases_Bad_Solution/CWE-595/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 8,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-601/codeql_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-601/sonar_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -756,7 +1276,33 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "Testcases_Bad_Solution/CWE-601/codeql_1.py": {
+    "Testcases_Bad_Solution/CWE-601/sonar_2.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-601/sonar_3.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 11,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-601/sonar_4.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -808,6 +1354,71 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-611/sonar_1.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-611/sonar_2.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-611/sonar_3.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-611/sonar_4.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-641/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 11,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-643/codeql_1.py": {
       "CONFIDENCE.HIGH": 2,
       "CONFIDENCE.LOW": 0,
@@ -818,6 +1429,19 @@
       "SEVERITY.MEDIUM": 1,
       "SEVERITY.UNDEFINED": 0,
       "loc": 14,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-643/sonar_1.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 15,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -912,6 +1536,32 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-759/mitre_1.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-760/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 7,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-776/codeql_1.py": {
       "CONFIDENCE.HIGH": 2,
       "CONFIDENCE.LOW": 0,
@@ -951,6 +1601,45 @@
       "nosec": 0,
       "skipped_tests": 0
     },
+    "Testcases_Bad_Solution/CWE-827/sonar_1.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-835/author_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 9,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-841/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 18,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
     "Testcases_Bad_Solution/CWE-918/codeql_1.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
@@ -977,23 +1666,49 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "_totals": {
-      "CONFIDENCE.HIGH": 43,
-      "CONFIDENCE.LOW": 1,
-      "CONFIDENCE.MEDIUM": 12,
+    "Testcases_Bad_Solution/CWE-941/mitre_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
       "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 12,
-      "SEVERITY.LOW": 23,
-      "SEVERITY.MEDIUM": 21,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 853,
+      "loc": 14,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "Testcases_Bad_Solution/CWE-943/sonar_1.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 15,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 64,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 13,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 16,
+      "SEVERITY.LOW": 31,
+      "SEVERITY.MEDIUM": 31,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1429,
       "nosec": 0,
       "skipped_tests": 0
     }
   },
   "results": [
     {
-      "code": "6     with open(filename, 'r') as f:\n7         data = yaml.load(f)\n",
+      "code": "7     with open(filename, 'r') as f:\n8         data = yaml.load(f)\n9         return data\n",
       "col_offset": 15,
       "filename": "Testcases_Bad_Solution/CWE-020/author_1.py",
       "issue_confidence": "HIGH",
@@ -1003,9 +1718,9 @@
       },
       "issue_severity": "MEDIUM",
       "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
-      "line_number": 7,
+      "line_number": 8,
       "line_range": [
-        7
+        8
       ],
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b506_yaml_load.html",
       "test_id": "B506",
@@ -1071,7 +1786,7 @@
       "test_name": "blacklist"
     },
     {
-      "code": "14     data = base64.decodebytes(raw_data)\n15     obj = pickle.loads(data)\n",
+      "code": "14     data = base64.decodebytes(raw_data)\n15     obj = pickle.loads(data)\n16     return obj\n",
       "col_offset": 10,
       "filename": "Testcases_Bad_Solution/CWE-020/codeql_2.py",
       "issue_confidence": "HIGH",
@@ -1280,6 +1995,25 @@
       "test_name": "exec_used"
     },
     {
+      "code": "10     module = request.args.get(\"module\")\n11     exec(\"import urllib%s as urllib\" % module)\n",
+      "col_offset": 4,
+      "filename": "Testcases_Bad_Solution/CWE-094/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of exec detected.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b102_exec_used.html",
+      "test_id": "B102",
+      "test_name": "exec_used"
+    },
+    {
       "code": "4     '''\n5     output = eval(inputStr)\n6     return output\n",
       "col_offset": 13,
       "filename": "Testcases_Bad_Solution/CWE-095/author_1.py",
@@ -1299,9 +2033,48 @@
       "test_name": "blacklist"
     },
     {
+      "code": "1 from Crypto.Cipher import AES\n2 from Crypto.Util.Padding import pad\n3 \n",
+      "col_offset": 0,
+      "filename": "Testcases_Bad_Solution/CWE-1204/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.",
+      "line_number": 1,
+      "line_range": [
+        1
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b413-import-pycrypto",
+      "test_id": "B413",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1 from Crypto.Cipher import AES\n2 from Crypto.Util.Padding import pad\n3 \n4 def getEncryptionKey(data, key):\n",
+      "col_offset": 0,
+      "filename": "Testcases_Bad_Solution/CWE-1204/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "The pyCrypto library and its module pad are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.",
+      "line_number": 2,
+      "line_range": [
+        2,
+        3
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b413-import-pycrypto",
+      "test_id": "B413",
+      "test_name": "blacklist"
+    },
+    {
       "code": "11         try:\n12             sql = \"SELECT * FROM user_bank_account WHERE user_id = '\" + userId + \"'\"\n13             result = connection.execute(sql)\n",
       "col_offset": 18,
-      "filename": "Testcases_Bad_Solution/CWE-200/mitre_1.py",
+      "filename": "Testcases_Bad_Solution/CWE-200/author_1.py",
       "issue_confidence": "LOW",
       "issue_cwe": {
         "id": 89,
@@ -1396,6 +2169,44 @@
       "test_name": "hardcoded_password_funcarg"
     },
     {
+      "code": "12         os.mkdir('/home/' + username)\n13         os.chmod('/home/' + username, 0o777)\n14         os.chmod('/home/' + username, 0o755)\n",
+      "col_offset": 8,
+      "filename": "Testcases_Bad_Solution/CWE-269/mitre_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 732,
+        "link": "https://cwe.mitre.org/data/definitions/732.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Chmod setting a permissive mask 0o777 on file (NOT PARSED).",
+      "line_number": 13,
+      "line_range": [
+        13
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b103_set_bad_file_permissions.html",
+      "test_id": "B103",
+      "test_name": "set_bad_file_permissions"
+    },
+    {
+      "code": "13         os.chmod('/home/' + username, 0o777)\n14         os.chmod('/home/' + username, 0o755)\n15     except OSError:\n",
+      "col_offset": 8,
+      "filename": "Testcases_Bad_Solution/CWE-269/mitre_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 732,
+        "link": "https://cwe.mitre.org/data/definitions/732.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Chmod setting a permissive mask 0o755 on file (NOT PARSED).",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b103_set_bad_file_permissions.html",
+      "test_id": "B103",
+      "test_name": "set_bad_file_permissions"
+    },
+    {
       "code": "7     if url.startswith(\"https\"):\n8         return requests.get(url, verify=False).text\n9     else:\n",
       "col_offset": 15,
       "filename": "Testcases_Bad_Solution/CWE-295/codeql_1.py",
@@ -1413,6 +2224,25 @@
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b501_request_with_no_cert_validation.html",
       "test_id": "B501",
       "test_name": "request_with_no_cert_validation"
+    },
+    {
+      "code": "6     '''\n7     ctx = ssl._create_unverified_context()\n8     return ctx\n",
+      "col_offset": 10,
+      "filename": "Testcases_Bad_Solution/CWE-297/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 295,
+        "link": "https://cwe.mitre.org/data/definitions/295.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "By default, Python will create a secure, verified ssl context for use in such classes as HTTPSConnection. However, it still allows using an insecure context via the _create_unverified_context that  reverts to the previous behavior that does not validate certificates or perform hostname checks.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b323-unverified-context",
+      "test_id": "B323",
+      "test_name": "blacklist"
     },
     {
       "code": "1 import ftplib\n2 \n3 def getConnection():\n4     '''\n",
@@ -1629,6 +2459,25 @@
       "test_name": "blacklist"
     },
     {
+      "code": "6     '''\n7     return ''.join(random.choice(string.ascii_letters) for i in range(length))\n",
+      "col_offset": 19,
+      "filename": "Testcases_Bad_Solution/CWE-331/author_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
       "code": "6     '''\n7     filename = mktemp()\n8     with open(filename, \"w+\") as f:\n",
       "col_offset": 15,
       "filename": "Testcases_Bad_Solution/CWE-377/codeql_1.py",
@@ -1646,6 +2495,44 @@
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b306-mktemp-q",
       "test_id": "B306",
       "test_name": "blacklist"
+    },
+    {
+      "code": "6     '''\n7     filename = tempfile.mktemp()\n8     tmp_file = open(filename, \"w+\")\n",
+      "col_offset": 15,
+      "filename": "Testcases_Bad_Solution/CWE-379/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of insecure and deprecated function (mktemp).",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b306-mktemp-q",
+      "test_id": "B306",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "10     password = request.POST.get('password')\n11     if user_name == 'admin' and password == 'admin':\n12         HAS_ADMIN_ACCESS = True\n",
+      "col_offset": 44,
+      "filename": "Testcases_Bad_Solution/CWE-454/author_1.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'admin'",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b105_hardcoded_password_string.html",
+      "test_id": "B105",
+      "test_name": "hardcoded_password_string"
     },
     {
       "code": "1 import pickle\n2 \n3 class Payload(object):\n4     def __reduce__(self):\n",
@@ -1666,25 +2553,6 @@
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b403-import-pickle",
       "test_id": "B403",
       "test_name": "blacklist"
-    },
-    {
-      "code": "10     data = request.args.get('data')\n11     return yaml.load(data)\n",
-      "col_offset": 11,
-      "filename": "Testcases_Bad_Solution/CWE-502/author_2.py",
-      "issue_confidence": "HIGH",
-      "issue_cwe": {
-        "id": 20,
-        "link": "https://cwe.mitre.org/data/definitions/20.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
-      "line_number": 11,
-      "line_range": [
-        11
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b506_yaml_load.html",
-      "test_id": "B506",
-      "test_name": "yaml_load"
     },
     {
       "code": "1 from django.conf.urls import url\n2 import pickle\n3 \n4 def getPickleData(pickled):\n",
@@ -1724,6 +2592,25 @@
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b301-pickle",
       "test_id": "B301",
       "test_name": "blacklist"
+    },
+    {
+      "code": "10     data = request.args.get('data')\n11     return yaml.load(data)\n",
+      "col_offset": 11,
+      "filename": "Testcases_Bad_Solution/CWE-502/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
     },
     {
       "code": "9     '''\n10     db = MySQLdb.connect(host=\"localhost\", user=\"root\", passwd=\"\", db=\"test\")\n11     cursor = db.cursor()\n",
@@ -1880,6 +2767,160 @@
       "test_name": "blacklist"
     },
     {
+      "code": "1 from lxml import etree\n2 \n3 def get_root():\n4     '''\n",
+      "col_offset": 0,
+      "filename": "Testcases_Bad_Solution/CWE-611/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.",
+      "line_number": 1,
+      "line_range": [
+        1,
+        2
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b410-import-lxml",
+      "test_id": "B410",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "7     parser = etree.XMLParser(resolve_entities=True)\n8     tree = etree.parse('ressources/xxe.xml', parser)\n9     root = tree.getroot()\n",
+      "col_offset": 11,
+      "filename": "Testcases_Bad_Solution/CWE-611/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.",
+      "line_number": 8,
+      "line_range": [
+        8
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b313-b320-xml-bad-etree",
+      "test_id": "B320",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1 from lxml import etree\n2 def get_root():\n3     '''\n",
+      "col_offset": 0,
+      "filename": "Testcases_Bad_Solution/CWE-611/sonar_2.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.",
+      "line_number": 1,
+      "line_range": [
+        1
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b410-import-lxml",
+      "test_id": "B410",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "6     parser = etree.XMLParser(resolve_entities=True)\n7     treexsd = etree.parse('ressources/xxe.xsd', parser)\n8     rootxsd = treexsd.getroot()\n",
+      "col_offset": 14,
+      "filename": "Testcases_Bad_Solution/CWE-611/sonar_2.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b313-b320-xml-bad-etree",
+      "test_id": "B320",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1 \n2 from lxml import etree\n3 \n4 def transform_xml():\n",
+      "col_offset": 0,
+      "filename": "Testcases_Bad_Solution/CWE-611/sonar_3.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.",
+      "line_number": 2,
+      "line_range": [
+        2,
+        3
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b410-import-lxml",
+      "test_id": "B410",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "9     parser = etree.XMLParser(resolve_entities=True)\n10     tree = etree.parse('ressources/xxe.xml', parser)\n11     rootxsl = tree.getroot()\n",
+      "col_offset": 11,
+      "filename": "Testcases_Bad_Solution/CWE-611/sonar_3.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.",
+      "line_number": 10,
+      "line_range": [
+        10
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b313-b320-xml-bad-etree",
+      "test_id": "B320",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1 import xml.sax\n2 def get_root():\n3     '''\n",
+      "col_offset": 0,
+      "filename": "Testcases_Bad_Solution/CWE-611/sonar_4.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Using xml.sax to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",
+      "line_number": 1,
+      "line_range": [
+        1
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b406-import-xml-sax",
+      "test_id": "B406",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "6     '''\n7     parser = xml.sax.make_parser()\n8     myHandler = MyHandler()\n",
+      "col_offset": 13,
+      "filename": "Testcases_Bad_Solution/CWE-611/sonar_4.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using xml.sax.make_parser to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax.make_parser with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b313-b320-xml-bad-sax",
+      "test_id": "B317",
+      "test_name": "blacklist"
+    },
+    {
       "code": "1 from lxml import etree\n2 from io import StringIO\n3 \n",
       "col_offset": 0,
       "filename": "Testcases_Bad_Solution/CWE-643/codeql_1.py",
@@ -1915,6 +2956,45 @@
       ],
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b313-b320-xml-bad-etree",
       "test_id": "B320",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1 from flask import request\n2 import xml.etree.ElementTree as ET\n3 \n4 tree = ET.parse('users.xml')\n",
+      "col_offset": 0,
+      "filename": "Testcases_Bad_Solution/CWE-643/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Using xml.etree.ElementTree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",
+      "line_number": 2,
+      "line_range": [
+        2,
+        3
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b405-import-xml-etree",
+      "test_id": "B405",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "3 \n4 tree = ET.parse('users.xml')\n5 root = tree.getroot()\n",
+      "col_offset": 7,
+      "filename": "Testcases_Bad_Solution/CWE-643/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using xml.etree.ElementTree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b313-b320-xml-bad-elementtree",
+      "test_id": "B314",
       "test_name": "blacklist"
     },
     {
@@ -1994,6 +3074,25 @@
       "test_name": "start_process_with_partial_path"
     },
     {
+      "code": "5     '''\n6     hasher = hashlib.new('md5')\n7     hasher.update(Password)\n",
+      "col_offset": 13,
+      "filename": "Testcases_Bad_Solution/CWE-759/mitre_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD4, MD5, or SHA1 hash for security. Consider usedforsecurity=False",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    },
+    {
       "code": "1 from flask import Flask, request\n2 import xml.etree.ElementTree as ET\n3 \n4 app = Flask(__name__)\n",
       "col_offset": 0,
       "filename": "Testcases_Bad_Solution/CWE-776/codeql_1.py",
@@ -2069,6 +3168,44 @@
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b105_hardcoded_password_string.html",
       "test_id": "B105",
       "test_name": "hardcoded_password_string"
+    },
+    {
+      "code": "1 from lxml import etree\n2 def getRoot():\n3     '''\n",
+      "col_offset": 0,
+      "filename": "Testcases_Bad_Solution/CWE-827/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.",
+      "line_number": 1,
+      "line_range": [
+        1
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html#b410-import-lxml",
+      "test_id": "B410",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "6     parser = etree.XMLParser()\n7     tree = etree.parse('ressources/xxe.xml', parser)\n8     root = tree.getroot()\n",
+      "col_offset": 11,
+      "filename": "Testcases_Bad_Solution/CWE-827/sonar_1.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_calls.html#b313-b320-xml-bad-etree",
+      "test_id": "B320",
+      "test_name": "blacklist"
     }
   ]
 }

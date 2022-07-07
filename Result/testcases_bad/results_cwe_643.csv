@@ -1,0 +1,1 @@
+"XPath query built from user-controlled sources","Building a XPath query from user-controlled sources is vulnerable to insertion of malicious Xpath code by the user.","error","This Xpath query depends on [[""a user-provided value""|""relative:///CWE-643/sonar_1.py:14:16:14:22""]].","/CWE-643/sonar_1.py","16","26","16","30"

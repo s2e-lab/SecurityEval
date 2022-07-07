@@ -1,1 +1,2 @@
-"Deserializing untrusted input","Deserializing user-controlled data may allow attackers to execute arbitrary code.","error","Deserializing of [[""untrusted input""|""relative:///CWE-020/codeql_2.py:13:12:13:18""]].","/CWE-020/codeql_2.py","15","25","15","28"
+"Deserializing untrusted input","Deserializing user-controlled data may allow attackers to execute arbitrary code.","error","Deserializing of [[""untrusted input""|""relative:///CWE-020/codeql_2.py:13:16:13:22""]].","/CWE-020/codeql_2.py","15","27","15","34"
+"Deserializing untrusted input","Deserializing user-controlled data may allow attackers to execute arbitrary code.","error","Deserializing of [[""untrusted input""|""relative:///CWE-502/sonar_1.py:10:12:10:18""]].","/CWE-502/sonar_1.py","11","27","11","30"

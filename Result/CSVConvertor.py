@@ -20,7 +20,7 @@ with open('./testcases.json', 'r') as f:
                 rows.append(row)
                 print(file)
 
-with open('testcases_copilot.csv', 'w', encoding='UTF8', newline='') as f:
+with open('testcases_bad.csv', 'w', encoding='UTF8', newline='') as f:
     writer = csv.writer(f)
 
     # write the header

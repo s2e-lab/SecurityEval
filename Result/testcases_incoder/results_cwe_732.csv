@@ -1,0 +1,1 @@
+"Overly permissive file permissions","Allowing files to be readable or writable by users other than the owner may allow sensitive information to be accessed.","warning","Overly permissive mask in chmod sets file to world writable.","/CWE-269/mitre_1.py","17","9","17","40"

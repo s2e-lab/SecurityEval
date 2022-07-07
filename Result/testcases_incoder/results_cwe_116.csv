@@ -1,1 +1,0 @@
-"Bad HTML filtering regexp","Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues.","warning","This regular expression does not match script end tags like </script >.","/CWE-116/codeql_1.py","7","30","7","55"

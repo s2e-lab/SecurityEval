@@ -1,0 +1,1 @@
+"Code injection","Interpreting unsanitized user input as code allows a malicious user to perform arbitrary code execution.","error","[[""A user-provided value""|""relative:///CWE-094/sonar_1.py:9:22:9:28""]] flows to here and is interpreted as code.","/CWE-094/sonar_1.py","10","10","10","41"
