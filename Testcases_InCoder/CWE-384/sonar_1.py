@@ -4,3 +4,6 @@ def index(request):
     '''
     get the value from request, set it at the cookies of the response and send it
     '''
+    response = HttpResponse()
+    response['Set-Cookie'] = 'key=value'
+    return response

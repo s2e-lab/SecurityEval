@@ -6,3 +6,5 @@ def getEncryptionKey(data, key):
     define a static vector, cipher using AES and CBC mode
     encrypt the data using the cipher by padding upto the block_size, and return it
     '''
+    cipher = AES.new(key, AES.MODE_CBC, IV)
+    return cipher.encrypt(pad(data, AES.block_size))

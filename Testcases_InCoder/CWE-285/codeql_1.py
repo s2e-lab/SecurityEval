@@ -13,3 +13,12 @@ def authenticate(username, password, service='login'):
     '''
     create a handle from PamHandle, conv from PamConv, and authenticate
     '''
+    pah = PamHandle()
+    conv = PamConv(pah, my_conv)
+    ret = pam_authenticate(conv, service)
+    if ret == PAM_SUCCESS:
+        print("Authentication success")
+        return True
+    else:
+        print("Authentication failure")
+        return False

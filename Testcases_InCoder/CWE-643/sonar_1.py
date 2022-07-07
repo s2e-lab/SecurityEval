@@ -11,3 +11,17 @@ def user_location():
     make a query to find the user in the xml
     return the locations of the user
     '''
+    
+    user = request.args.get('user')
+    
+    locations = []
+    
+    for user in root.findall('user'):
+        
+        if user.find('username').text == user:
+            
+            for location in user.findall('location'):
+                
+                locations.append(location.text)
+                
+    return locations

@@ -8,3 +8,6 @@ def upload():
     '''
     get the xml_src from the request, parse it and return it as string
     '''
+    xml_src = request.form['xml_src']
+    doc = lxml.etree.fromstring(xml_src)
+    return doc.toxml()

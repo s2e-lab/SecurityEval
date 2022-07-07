@@ -5,3 +5,10 @@ def get_root():
     parse from a file and return the result
     '''
  
+    handler = xml.sax.make_parser()
+    handler.setContentHandler(xml.sax.ContentHandler()) 
+    handler.startDocument()
+    handler.startElement("root", {})
+    handler.endElement("root")
+    handler.endDocument()
+    return handler.getRootElement()

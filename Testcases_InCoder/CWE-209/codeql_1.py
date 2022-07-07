@@ -13,3 +13,9 @@ def server_bad():
     call do_computation() method within a try-except block
     in except block, print the traceback of the exception
     '''
+    try:
+        do_computation()
+    except Exception as e:
+        traceback.print_exc()
+        return 'Error message from server'
+    return 'Hello World!'

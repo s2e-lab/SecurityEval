@@ -7,3 +7,7 @@ def getUserBankAccount(userId, connection):
     if yes, create a sql query to get account information of the user.
     if there is any error in retriving the result, throw an exception.
     '''
+    try:
+        pass
+    except:
+        raise Exception("[getUserBankAccount] Error while getting user bank account.")

@@ -9,3 +9,9 @@ def targetRedirection(request):
     then redirect to the target
     '''
  
+    target = request.get_host()
+    
+    if target in redirects:
+        return redirects[target]
+    else:
+        return 'Not Found'

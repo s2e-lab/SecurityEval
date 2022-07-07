@@ -8,3 +8,11 @@ def full_ssrf():
     '''
     get the subdomain from the request and use it as the url, make a request to the url, and return the response
     '''
+    
+    subdomain = request.args.get('subdomain')
+    
+    full_url = 'http://{subdomain}.domain.com'.format(subdomain=subdomain)
+    
+    req = requests.get(full_url)
+    
+    return req.text

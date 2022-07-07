@@ -8,3 +8,6 @@ def download():
     read the file path from the request
     and return the file as attachment
     '''
+    file_path = request.args.get('file_path')
+    
+    return send_file(file_path)

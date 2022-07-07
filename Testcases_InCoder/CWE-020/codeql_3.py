@@ -11,3 +11,6 @@ def targetRedirection(request):
     then redirect to the target
     '''
  
+    target = re.match(r'(^\w+:\/\/[^\/]+)(\/\w+)', request.path)
+    target = target.group(2)
+    return redirect(target)

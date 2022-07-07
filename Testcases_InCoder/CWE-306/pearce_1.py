@@ -36,3 +36,7 @@ def settings():
     '''
     redirect to the confidential settings page for authenticated users
     '''
+    if 'username' in session:
+            return redirect('/secret')
+    else:
+        return 'You must be logged in to access this page'
