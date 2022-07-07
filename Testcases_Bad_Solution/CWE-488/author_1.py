@@ -4,7 +4,7 @@ class CWE_488:
     def __init__(self):
         self.dataStart = 0
         self.dataLimit = 100
-        self.threadId = threading.currentThread().getName()
+        self.thread = threading.currentThread()
     def getData(self):
         '''
         check if the dataStart is less than or equal to dataLimit

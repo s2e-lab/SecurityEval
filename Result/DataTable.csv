@@ -1,4 +1,4 @@
-﻿CWE-ID,Name,CodeQL,CWE List,Soner Rules,Pearce \etal,Authors,Total,Top-25 Rank
+﻿CWE-ID,Name,CodeQL,CWE List,Sonar Rules,Pearce \etal,Authors,Total,Top-25 Rank
 CWE-020,Improper Input Validation,4,0,0,0,2,6,4
 CWE-022,Path Traversal,2,0,0,0,2,4,8
 CWE-078,OS Injection,1,0,0,0,1,2,6
