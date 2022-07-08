@@ -10,9 +10,9 @@ for root, dirs, files in os.walk(dirPath):
             data = {}
             data['ID'] = root.split('/')[2]+'_'+file
             with open(os.path.join(root, file)) as f:
-                data['Prompt']  = f.read()
+                data['Prompt']  = f.read().strip()
             with open(os.path.join('./Testcases_Canonical_Solution/'+root.split('/')[2], file)) as f:
-                data['Canonical_solution']  = f.read()
+                data['Canonical_solution']  = f.read().strip()
             print(data)
             dataset.append(data)
 with open('dataset.jsonl', 'w') as f:
