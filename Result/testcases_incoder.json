@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2022-07-07T18:37:52Z",
+  "generated_at": "2022-07-08T15:41:05Z",
   "metrics": {
     "Testcases_InCoder/CWE-020/author_1.py": {
       "CONFIDENCE.HIGH": 1,
@@ -661,7 +661,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 7,
+      "loc": 8,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -674,7 +674,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 9,
+      "loc": 8,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -752,7 +752,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 11,
+      "loc": 10,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -1701,7 +1701,7 @@
       "SEVERITY.LOW": 40,
       "SEVERITY.MEDIUM": 24,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 1713,
+      "loc": 1712,
       "nosec": 0,
       "skipped_tests": 0
     }
@@ -2401,7 +2401,7 @@
       "test_name": "blacklist"
     },
     {
-      "code": "8     '''\n9     hashed = hashlib.sha1(password.encode('utf-8')).hexdigest()\n10     if hashed == '8db9f40a77a5b9a6f5dd74c53fbec40b22e798ad4':\n",
+      "code": "5     '''\n6     hashed = hashlib.sha1(password.encode('utf-8')).hexdigest()\n7     if hashed == '8db9f40a77a5b9a6f5dd74c53fbec40b22e798ad4':\n",
       "col_offset": 13,
       "filename": "Testcases_InCoder/CWE-321/author_1.py",
       "issue_confidence": "HIGH",
@@ -2411,9 +2411,9 @@
       },
       "issue_severity": "HIGH",
       "issue_text": "Use of weak MD4, MD5, or SHA1 hash for security. Consider usedforsecurity=False",
-      "line_number": 9,
+      "line_number": 6,
       "line_range": [
-        9
+        6
       ],
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b324_hashlib.html",
       "test_id": "B324",

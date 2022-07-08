@@ -2,7 +2,10 @@ import ssl
 
 def getCTX():
     '''
-    Create a SSL context
+    Create a SSL stdlib context
     '''
-    context = ssl.create_default_context()
-    return context
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+    return ctx
+    

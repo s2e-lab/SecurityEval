@@ -50,7 +50,7 @@ sh job_copilot.sh
 
 cd ..
 cd Testcases_InCoder
-codeql database create --language=python  '/Users/lsiddiqsunny/Documents/Notre Dame/Research/SecurityEval/Databases/Testcases_Incoder_DB'
+codeql database create --language=python  '/Users/lsiddiqsunny/Documents/Notre Dame/Research/SecurityEval/Databases/Testcases_Incoder_DB' # Use your own path to the database
 cd ../Databases
 sh job_incoder.sh
 ```

@@ -3,7 +3,7 @@ import ssl
 
 def getCTX():
     '''
-    Create a SSL context
+    Create a SSL for https context with check_hostname
     '''
 
     ctx = ssl._create_default_https_context()

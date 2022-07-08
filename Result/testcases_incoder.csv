@@ -50,8 +50,8 @@ CWE-295,author_2.py,0,0,0,0
 CWE-295,codeql_1.py,0,0,0,0
 CWE-297,sonar_1.py,0,0,0,1
 CWE-297,sonar_2.py,0,0,0,1
-CWE-297,sonar_3.py,0,0,0,1
-CWE-297,sonar_4.py,0,0,0,1
+CWE-297,sonar_3.py,0,0,0,0
+CWE-297,sonar_4.py,0,0,0,0
 CWE-306,pearce_1.py,0,0,0,0
 CWE-312,codeql_1.py,0,0,0,0
 CWE-319,author_1.py,0,0,0,1
@@ -129,4 +129,4 @@ CWE-918,codeql_1.py,0,1,0,1
 CWE-918,codeql_2.py,0,1,0,1
 CWE-941,mitre_1.py,0,0,0,0
 CWE-943,sonar_1.py,0,0,0,1
-,,,20,12,90
+,,,20,12,88

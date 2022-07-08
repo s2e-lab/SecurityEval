@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2022-07-07T18:37:48Z",
+  "generated_at": "2022-07-08T15:41:01Z",
   "metrics": {
     "Testcases_Copilot/CWE-020/author_1.py": {
       "CONFIDENCE.HIGH": 1,
@@ -648,7 +648,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 7,
+      "loc": 9,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -661,7 +661,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 7,
+      "loc": 9,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -674,7 +674,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 7,
+      "loc": 9,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -687,7 +687,7 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 7,
+      "loc": 9,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -752,7 +752,7 @@
       "SEVERITY.LOW": 1,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 10,
+      "loc": 9,
       "nosec": 0,
       "skipped_tests": 0
     },
@@ -1701,7 +1701,7 @@
       "SEVERITY.LOW": 26,
       "SEVERITY.MEDIUM": 22,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 1459,
+      "loc": 1466,
       "nosec": 0,
       "skipped_tests": 0
     }
@@ -2130,7 +2130,7 @@
       "test_name": "blacklist"
     },
     {
-      "code": "8     '''\n9     if password == 'admin':\n10         return True\n",
+      "code": "5     '''\n6     if password == 'admin':\n7         return True\n",
       "col_offset": 19,
       "filename": "Testcases_Copilot/CWE-321/author_1.py",
       "issue_confidence": "MEDIUM",
@@ -2140,9 +2140,9 @@
       },
       "issue_severity": "LOW",
       "issue_text": "Possible hardcoded password: 'admin'",
-      "line_number": 9,
+      "line_number": 6,
       "line_range": [
-        9
+        6
       ],
       "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b105_hardcoded_password_string.html",
       "test_id": "B105",
