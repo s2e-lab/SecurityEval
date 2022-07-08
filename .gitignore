@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 Source/
 .DS_Store
-Databases/
+Databases/Testcases_*
+Databases/job_bad.share
+Result/testcases_bad/
+Result/testcases_bad.*

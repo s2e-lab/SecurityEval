@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Siddiq"
+  given-names: "Mohammed Latif"
+  orcid: "https://orcid.org/0000-0002-7984-3611"
+- family-names: "Santos"
+  given-names: "Joanna C. S."
+  orcid: "https://orcid.org/0000-0001-8743-2516"
+title: "SecurityEval Dataset: Mining Software Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Output"
+version: 1.0.0
+date-released: 2022-03-02
+url: "https://github.com/s2e-lab/SecurityEval"
