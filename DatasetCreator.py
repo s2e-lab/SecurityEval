@@ -15,6 +15,8 @@ for root, dirs, files in os.walk(dirPath):
                 data['Canonical_solution']  = f.read().strip()
             print(data)
             dataset.append(data)
+
+dataset = sorted(dataset, key=lambda x: x['ID'])
 with open('dataset.jsonl', 'w') as f:
     for item in dataset:
         f.write(json.dumps(item)+'\n')
