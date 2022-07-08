@@ -13,5 +13,5 @@ def user_location():
     '''
     username = request.args['username']
     query = "./users/user/[@name='"+username+"']/location"
-    elmts = root.findall(query) # Noncompliant
+    elmts = root.findall(query)
     return 'Location %s' % list(elmts)
