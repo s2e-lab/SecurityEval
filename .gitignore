@@ -130,6 +130,6 @@ dmypy.json
 Source/
 .DS_Store
 Databases/Testcases_*
-Databases/job_bad.share
+Databases/job_bad.sh
 Result/testcases_bad/
 Result/testcases_bad.*
