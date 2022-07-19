@@ -1,6 +1,6 @@
 # SecurityEval
 
-This repository contains source code for the paper titled **SecurityEval Dataset: Mining Software Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Output**. The project is submitted for The first edition of the International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S '22). The paper describes the dataset for evaluating machine learning-based code generation output and application of the dataset to the code generation tools.
+This repository contains source code for the paper titled **SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques**. The project is submitted for The first edition of the International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S '22). The paper describes the dataset for evaluating machine learning-based code generation output and application of the dataset to the code generation tools.
 
 ## Project Structure
 - dataset.jsonl: dataset file in jsonl format. Every line contains a JSON object with the following fields:
@@ -56,14 +56,14 @@ sh job_incoder.sh
 ```
 
 ## Abstract
-Automated source code generation is currently a popular machine-learning-based task. It can be helpful for the software developer to write functionally correct code from the given context. But like human developers, the code generation model can produce vulnerable code, which can be prevalent in the software. For this reason, evaluating the code generation model is a must. We propose an evaluation dataset for this purpose. It contains 130 samples for 75 Common Weakness Enumeration (CWE), including 14 of the top 25 most common security weaknesses. We also demonstrate our dataset for evaluating one open-source model (i.e. InCoder) and one closed-source model (i.e. GitHub Copilot).
+Automated source code generation is currently a popular machine-learning-based task. It can be helpful for the software developer to write functionally correct code from the given context. However, just like human developers, a code generation model can produce vulnerable code, which can be prevalent in the software. For this reason, evaluating the code generation model is a must. In this paper, we describe \SecurityEval{}, an evaluation dataset for this purpose. It contains 130 samples for 75 Common Weakness Enumeration (CWE). We also demonstrate how to use our dataset for evaluating one open-source (\ie InCoder) and one closed-source code generation models (\ie GitHub Copilot).
 
 ## Citation
 ```
  @software{Siddiq_SecurityEval_2022,
  author = {Siddiq, Mohammed Latif and Santos, Joanna C.S.},
  month = {7},
- title = {{SecurityEval Dataset: Mining Software Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Output}},
+ title = {{SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques}},
  url = {https://github.com/s2e-lab/SecurityEval},
  version = {1.0.0},
  year = {2022}
