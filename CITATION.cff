@@ -7,7 +7,7 @@ authors:
 - family-names: "Santos"
   given-names: "Joanna C. S."
   orcid: "https://orcid.org/0000-0001-8743-2516"
-title: "SecurityEval Dataset: Mining Software Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Output"
+title: "SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques"
 version: 1.0.0
 date-released: 2022-03-02
 url: "https://github.com/s2e-lab/SecurityEval"
