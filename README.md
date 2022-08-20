@@ -1,6 +1,6 @@
 # SecurityEval
 
-This repository contains source code for the paper titled **SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques**. The project is submitted for The first edition of the International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S '22). The paper describes the dataset for evaluating machine learning-based code generation output and application of the dataset to the code generation tools.
+This repository contains source code for the paper titled **SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques**. The project is accepted for The first edition of the International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S '22). The paper describes the dataset for evaluating machine learning-based code generation output and application of the dataset to the code generation tools.
 
 ## Project Structure
 - dataset.jsonl: dataset file in jsonl format. Every line contains a JSON object with the following fields:
