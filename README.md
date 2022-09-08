@@ -56,7 +56,7 @@ sh job_incoder.sh
 ```
 
 ## Abstract
-Automated source code generation is currently a popular machine-learning-based task. It can be helpful for the software developer to write functionally correct code from the given context. However, just like human developers, a code generation model can produce vulnerable code, which can be prevalent in the software. For this reason, evaluating the code generation model is a must. In this paper, we describe SecurityEval, an evaluation dataset for this purpose. It contains 130 samples for 75 Common Weakness Enumeration (CWE). We also demonstrate how to use our dataset to evaluate one open-source (i.e., InCoder) and one closed-source code generation model (i.e., GitHub Copilot).
+Automated source code generation is currently a popular machine learning-based task. It can be helpful for software developers to write functionally correct code from a given context. However, just like human developers, a code generation model can produce vulnerable code, which the developers can mistakenly use. For this reason, evaluating the security of a code generation model is a must. In this paper, we describe SecurityEval, an evaluation dataset to fulfill this purpose. It contains 130 samples for 75 vulnerability types, which are mapped to the Common Weakness Enumeration (CWE). We also demonstrate using our dataset to evaluate one open-source (i.e., InCoder) and one closed-source code generation model (i.e., GitHub Copilot).
 
 ## Citation
 ```
