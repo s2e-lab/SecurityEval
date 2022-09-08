@@ -10,4 +10,19 @@ authors:
 title: "SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques"
 version: 1.0.0
 date-released: 2022-03-02
+doi: 10.1145/3549035.3561184
 url: "https://github.com/s2e-lab/SecurityEval"
+preferred-citation:
+  type: proceedings
+  authors:
+  - family-names: "Siddiq"
+    given-names: "Mohammed Latif"
+    orcid: "https://orcid.org/0000-0002-7984-3611"
+  - family-names: "Santos"
+    given-names: "Joanna C. S."
+    orcid: "https://orcid.org/0000-0001-8743-2516"
+  doi: "10.1145/3549035.3561184"
+  journal: "Proceedings of the 1st International Workshop on Mining Software Repositories Applications for Privacy and Se- curity (MSR4P&S ’22)"
+  month: 11
+  title: "SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques"
+  year: 2022
