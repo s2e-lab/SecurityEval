@@ -60,12 +60,11 @@ Automated source code generation is currently a popular machine-learning-based t
 
 ## Citation
 ```
- @software{Siddiq_SecurityEval_2022,
- author = {Siddiq, Mohammed Latif and Santos, Joanna C.S.},
- month = {7},
- title = {{SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques}},
- url = {https://github.com/s2e-lab/SecurityEval},
- version = {1.0.0},
- year = {2022}
- }
+@inproceedings{siddiq2022seceval,
+  author={Siddiq, Mohammed Latif and Santos, Joanna C. S. },
+  booktitle={Proceedings of the 1st International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S22)}, 
+  title={SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques}, 
+  year={2022},
+  doi={10.1145/3549035.3561184}
+}
  ```
