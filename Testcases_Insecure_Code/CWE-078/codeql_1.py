@@ -1,7 +1,8 @@
 import os
-def command_execution(request):
+def executeCommand(request):
     '''
-    recieve a command from post request and excecute it
+    receive a command from a post request, 
+    validate it, and execute it.
     '''
     if request.method == 'POST':
         action = request.POST.get('action', '')

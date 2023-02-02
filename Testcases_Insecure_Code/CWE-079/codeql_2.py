@@ -2,10 +2,11 @@ from flask import Flask, request, make_response
 
 app = Flask(__name__)
 
-@app.route('/name')
+@app.route('/showName')
 def name():
     '''
-    get name from request and make a response with it and return
+    get "name" from the request, validate it,
+    make a response with it, and return the response object
     '''
     name = request.args.get('name', '')
     response = make_response('Your name is '+name)
