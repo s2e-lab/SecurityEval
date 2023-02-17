@@ -1,6 +1,8 @@
-from flask import request, make_response
+from flask import Flask, request, make_response
 
-@xss.route('/view', methods =['GET'])
+app = Flask(__name__)
+
+@app.route('/view', methods =['GET'])
 def viewName():
     '''
     Get the param "name" from the request.

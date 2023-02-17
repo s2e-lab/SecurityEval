@@ -1,9 +1,12 @@
-def eval_code(request):
+from flask import Flask, request
+app = Flask(__name__)
+
+@app.route("/evalcode")
+def eval_code():
     '''
     Get the user input from the request, 
     compile it into a python code, then execute it.
-    Return the result execution to the caller.
     '''
-    unsafe_input = request.args['input']
-    compiled_code = compile(unsafe_input,'from_input.py','single')
-    return str(eval(compiled_code))
+    input = request.args.get('input')
+    compile(input, 'input', 'exec')
+    return "executed"

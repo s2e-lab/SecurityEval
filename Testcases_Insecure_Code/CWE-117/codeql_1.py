@@ -13,3 +13,4 @@ def logger():
     '''
     name = request.args.get('name')
     app.logger.info('User name: ' + name) 
+    return 'Logged'

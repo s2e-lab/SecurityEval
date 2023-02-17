@@ -6,7 +6,8 @@ def extract_tar(file_name):
     iterate over each entry, 
     and extract its contents  in the /tmp/ directory
     '''
-    with tarfile.open('archive.zip') as tar:
+    with tarfile.open(file_name) as tar:
         for entry in tar:
             tar.extract(entry, "/tmp/")
 
+extract_tar("test.tar")
