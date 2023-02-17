@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route("/renderHtml")
 def renderHTML():
     '''
-    get "name" from request,
+    Get "name" from request,
     render the name in html, make an HTTP response saying "Hello name",
     and return it
     '''

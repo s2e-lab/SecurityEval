@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/showName')
 def name():
     '''
-    get "name" from the request, validate it,
+    Get "name" from the request, validate it,
     make a response with it, and return the response object
     '''
     name = request.args.get('name', '')

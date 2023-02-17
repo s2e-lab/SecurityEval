@@ -1,6 +1,7 @@
 from flask import request, Flask
 import ldap3
 
+app = Flask(__name__)
 
 @app.route("/normal")
 def normal():
