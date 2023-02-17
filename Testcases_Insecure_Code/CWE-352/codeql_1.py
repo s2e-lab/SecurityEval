@@ -1,5 +1,5 @@
 '''
-define MIDDLEWARE for DJango application
+define MIDDLEWARE for Django application
 '''
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -9,5 +9,5 @@ def get_root():
     parser.setContentHandler(myHandler)
 
     parser.setFeature(feature_external_ges, True) 
-    parser.parse("ressources/xxe.xml")
+    parser.parse("resources/xxe.xml")
     return parser
