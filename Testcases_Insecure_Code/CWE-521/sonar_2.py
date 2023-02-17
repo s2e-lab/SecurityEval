@@ -8,7 +8,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'quickdb',
         'USER': 'sonarsource',
-        'PASSWORD': '', 
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432'
     }

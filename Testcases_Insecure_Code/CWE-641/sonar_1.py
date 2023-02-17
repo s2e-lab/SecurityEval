@@ -10,4 +10,4 @@ def download():
     '''
     file = request.args['file']
     filepath = '/'.join(file.split('_'))
-    return send_file(filepath, as_attachment=True) 
+    return send_file(filepath, as_attachment=True)

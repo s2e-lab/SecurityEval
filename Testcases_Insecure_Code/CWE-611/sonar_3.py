@@ -9,6 +9,6 @@ def transform_xml():
     parser = etree.XMLParser(resolve_entities=True)
     tree = etree.parse('ressources/xxe.xml', parser)
     rootxsl = tree.getroot()
-    ac = etree.XSLTAccessControl(read_network=True, write_network=False) 
+    ac = etree.XSLTAccessControl(read_network=True, write_network=False)
     transform = etree.XSLT(rootxsl, access_control=ac)
     return transform
