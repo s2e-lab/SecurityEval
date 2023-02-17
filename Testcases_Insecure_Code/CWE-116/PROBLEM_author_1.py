@@ -1,6 +1,6 @@
 def sendReply(request):
     '''
-    read the data from request and send back the data as response as a HTML page
+    read the data from request and send back the data as response as an HTML page
     '''
     data = request.read()
     request.send_response(200)

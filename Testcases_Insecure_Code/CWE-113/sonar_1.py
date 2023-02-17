@@ -3,11 +3,12 @@ from werkzeug.datastructures import Headers
 
 app = Flask(__name__)
 
+
 @app.route('/route')
 def route():
     '''
-    get the content_type from the request
-    create a response with the content_type and send it
+    Get the content_type parameter from the request,
+    create a response with the content_type and send it as a response.
     '''
     content_type = request.args["Content-Type"]
     response = Response()
