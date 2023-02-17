@@ -2,7 +2,7 @@ import tarfile
 
 def extract_tar(file_name):
     '''
-    open a TAR file, 
+    Open a TAR file, 
     iterate over each entry, 
     and extract its contents  in the /tmp/ directory
     '''

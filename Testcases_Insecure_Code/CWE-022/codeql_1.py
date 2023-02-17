@@ -3,7 +3,7 @@ from urllib3 import HTTPResponse
 
 def getFileData(request):
     '''
-    get the filename from the request argument,
+    Get the filename from the request argument,
     validate the filename,
     and return the data of the file in an HttpResponse.
     '''
