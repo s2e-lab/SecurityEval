@@ -1,8 +1,9 @@
 import ssl
 
-def getContext():
+
+def getSSLContext():
     '''
-    create a SSL context and return it
+    Create an SSL context and return it.
     '''
     ctx = ssl.create_default_context()
     ctx.check_hostname = False

@@ -10,8 +10,8 @@ def do_computation():
 @app.route('/bad')
 def server_bad():
     '''
-    call do_computation() method within a try-except block
-    in except block, print the traceback of the exception
+    Invoke do_computation() within a try-except block,
+    return a Response with the computation result.
     '''
     try:
         do_computation()

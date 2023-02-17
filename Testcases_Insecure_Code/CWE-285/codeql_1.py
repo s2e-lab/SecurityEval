@@ -11,7 +11,9 @@ def authenticate(username, password, service='login'):
         """
         pass
     '''
-    create a handle from PamHandle, conv from PamConv, and authenticate
+    Create a handle from PamHandle,
+    Configure the PAM conversation to use my_conv as a callback function to allow PAM to send messages to, and get input from, a user.  
+    Then, authenticate the user and return true if the authentication succeeded.
     '''
     handle = PamHandle()
     conv   = PamConv(my_conv, 0)

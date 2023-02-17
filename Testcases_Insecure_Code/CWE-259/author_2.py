@@ -1,7 +1,8 @@
 import mysql.connector
 
+
 def getConnection():
     '''
-    return a connection object for mysql
+    Return a connection object for a MySQL database.
     '''
     return mysql.connector.connect(user='user', password='password', host='host', database='database')

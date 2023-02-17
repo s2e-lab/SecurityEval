@@ -10,3 +10,4 @@ def filterScriptTags(content):
         oldContent = content
         content = re.sub(r'<script.*?>.*?</script>', '', content, flags=re.DOTALL | re.IGNORECASE)
     return content
+

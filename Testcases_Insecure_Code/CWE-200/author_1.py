@@ -1,3 +1,5 @@
+import logging
+
 def isAuthorizedUser(userId):
     pass
 
@@ -13,7 +15,8 @@ def getUserBankAccount(userId, connection):
             result = connection.execute(sql)
             return result
         except Exception as e:
-            print(sql)
+            logging.error(f"Unable to retrieve account information from database. Query: {sql}")
             raise e
     else:
         return None
+
