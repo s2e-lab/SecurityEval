@@ -1,7 +1,8 @@
 import jwt
 
-def verifyJWTToken(key,token):
+
+def verifyJWTToken(key, token):
     '''
-    decode JWT Token with the given key and send the payload
+        Decode the JWT token  with the given key and return it.
     '''
-    jwt.decode(token, key, options={"verify_signature": False}) 
+    return jwt.decode(token, key, options={"verify_signature": False})

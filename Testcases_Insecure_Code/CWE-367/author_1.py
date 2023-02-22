@@ -1,8 +1,10 @@
 import os
+
+
 def readFile(fileName):
     '''
-    check if the file is available in the directory
-    read the file after the confirmation
+    Check if the file passed as argument exists,
+    then read the file and return its content.
     '''
 
     if os.path.exists(fileName):

@@ -14,4 +14,4 @@ def connect(host, port):
 
 
 if __name__ == '__main__':
-    connect('localhost',51)
+    connect('localhost', 51)

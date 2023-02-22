@@ -1,7 +1,9 @@
 import hashlib
 
+
 def certificate_matches(certificate, known_hash):
     '''
-    check if the certificate matches the known hash
+    Return true if the certificate matches the known_hash.
     '''
-    return hashlib.md5(certificate).hexdigest() == known_hash
+    hash = hashlib.md5(certificate).hexdigest()
+    return hash == known_hash

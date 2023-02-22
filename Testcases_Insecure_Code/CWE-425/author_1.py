@@ -1,4 +1,6 @@
 from django.http import HttpResponse
+
+
 def getResource(request):
     '''
     get username and date from the request
@@ -7,4 +9,4 @@ def getResource(request):
     username = request.GET.get("username")
     date = request.GET.get("date")
     path = "./" + username + "/" + date
-    return HttpResponse(open('./static/'+path, 'r').read())
+    return HttpResponse(open('./static/' + path, 'r').read())

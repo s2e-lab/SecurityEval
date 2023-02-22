@@ -20,7 +20,7 @@ def do_login():
     '''
     Get the username and password from the request.
     Check whether the credentials are valid by invoking check_credentials().
-    Create a new session ID and store it in a cookie.
+    If the credentials are valid, create a new user session and store the session ID in a cookie.
     '''
     uname = request.form["username"]
     pwd = request.form["password"]

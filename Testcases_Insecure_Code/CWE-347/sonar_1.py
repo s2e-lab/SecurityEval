@@ -1,7 +1,8 @@
 import jwt
 
-def verifyJWTToken(token):
+
+def verifyJsonWebToken(token):
     '''
-    decode JWT Token and send the payload
+    Decode the JSON web token passed and return it.
     '''
-    return jwt.decode(token, verify = False)
+    return jwt.decode(token, verify=False)
