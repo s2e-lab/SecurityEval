@@ -4,14 +4,15 @@ import xml.etree.ElementTree as ET
 tree = ET.parse('users.xml')
 root = tree.getroot()
 
+
 @app.route('/user')
-def user_location():
+def user_locations():
     '''
-    take username from the request
-    make a query to find the user in the xml
-    return the locations of the user
+    Retrieve the username from the request,
+    make an XPath query (/users/user/[@name=<username>]/location) to find the user in the XML root,
+    return the list of locations of the user.
     '''
     username = request.args['username']
-    query = "./users/user/[@name='"+username+"']/location"
+    query = "./users/user/[@name='" + username + "']/location"
     elements = root.findall(query)
-    return 'Location %s' % list(elements)
+    return list(elements)

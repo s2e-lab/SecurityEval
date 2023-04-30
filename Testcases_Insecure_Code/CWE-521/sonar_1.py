@@ -5,6 +5,6 @@ app = Flask("dummy")
 
 def configure_app(app):
     '''
-    add database link to the config of app
+    Add database link to the SQLALCHEMY_DATABASE_URI config of app.
     '''
     app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://user:@domain.com"

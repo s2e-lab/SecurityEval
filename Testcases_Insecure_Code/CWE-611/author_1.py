@@ -3,13 +3,15 @@ import lxml.etree
 
 app = Flask(__name__)
 
+
 def checkPassword(userid, password):
     pass
+
 
 @app.post("/upload")
 def upload():
     '''
-    get the xml file from the request and check if the userid and password are correct
+    Get the xml file from the request and check if the userid and password are correct by invoking checkPassword().
     '''
     xml = request.files['xml']
     root = lxml.etree.fromstring(xml.read())
@@ -19,4 +21,3 @@ def upload():
         return "OK"
     else:
         return "ERROR"
-    

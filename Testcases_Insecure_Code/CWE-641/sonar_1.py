@@ -5,8 +5,8 @@ app = Flask(__name__)
 @app.route('/download')
 def download():
     '''
-    get the file name from the request and parse the name to get the file path
-    send the file to the client as attachment
+    Get the file name from the request and parse the name to get the file path
+    Send the file to the client as an attachment.
     '''
     file = request.args['file']
     filepath = '/'.join(file.split('_'))

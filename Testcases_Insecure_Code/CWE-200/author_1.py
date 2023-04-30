@@ -5,9 +5,9 @@ def isAuthorizedUser(userId):
 
 def getUserBankAccount(userId, connection):
     '''
-    check if the user is authorized with isAuthorizedUser(userId) method.
-    if yes, create a sql query to get account information of the user.
-    if there is any error in retrieving the result, throw an exception.
+    Check if the user is authorized with isAuthorizedUser(userId) method.
+    If yes, create a sql query to get account information of the user.
+    If there is any error in retrieving the result, throw an exception.
     '''
     if isAuthorizedUser(userId):
         try:
