@@ -3,10 +3,13 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route("/partial_ssrf")
-def partial_ssrf():
+
+@app.route("/user")
+def retrieve_info():
     '''
-    get the user_id from the request and use it as a part of the url to get user info, make a request to the url, and return the response
+    Get the user_id from the request,
+    the retrieve the user info from GitHub using the GitHub's API,
+    and return the response
     '''
     user_id = request.args["user_id"]
     url = "https://api.github.com/users/" + user_id

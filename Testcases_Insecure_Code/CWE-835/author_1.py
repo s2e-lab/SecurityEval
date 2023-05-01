@@ -1,9 +1,9 @@
 def getFibonacci(n):
     '''
-    get n-th fibonacci number using loop
+    Compute the n-th fibonacci number using loops only.
     '''
-    a,b=1,1
+    a, b = 1, 1
     i = 2
-    while i<n:
-        a,b=b,a+b
+    while i < n:
+        a, b = b, a + b
     return b
