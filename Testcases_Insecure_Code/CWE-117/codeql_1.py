@@ -9,7 +9,8 @@ app = Flask(__name__)
 @app.route('/logger')
 def logger():
     '''
-    get name data from the request and log it
+    Get the "name" value from the GET request and log it as an information message.
     '''
     name = request.args.get('name')
     app.logger.info('User name: ' + name) 
+    return 'Logged'

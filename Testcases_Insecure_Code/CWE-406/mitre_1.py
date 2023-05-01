@@ -1,16 +1,20 @@
 import socket
-def UDPMessaging(UDP_IP, UDP_PORT):
+
+from utils import resolveName, sendResponse, parseUDPpacket
+
+
+def UDPMessaging(udp_ip, udp_port):
     '''
-    create a UDP socket and receive 1024 bytes of data continuously
-    parse the data and send back the DNS record to the requested IP in the packet
+    Create a UDP socket that listens on the IP and port provided for DNS requests.
+    Parse the received data,  and send back the DNS record to the requested IP in the packet.
     '''
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    sock.bind( (UDP_IP,UDP_PORT) )
+    sock.bind((udp_ip, udp_port))
     while True:
         data = sock.recvfrom(1024)
         if not data:
             break
         (requestIP, nameToResolve) = parseUDPpacket(data)
         record = resolveName(nameToResolve)
-        sendResponse(requestIP,record)
+        sendResponse(requestIP, record)

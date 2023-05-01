@@ -1,8 +1,14 @@
 import os
-def command_execution(request):
+from flask import Flask, request
+app = Flask(__name__)
+
+@app.route("/command")
+def executeCommand():
     '''
-    recieve a command from post request and excecute it
+    Receive a command from a post request, 
+    validate it, and execute it.
     '''
     if request.method == 'POST':
-        action = request.POST.get('action', '')
+        action = request.args.get('action')
         os.system(action)
+        return "Command executed"

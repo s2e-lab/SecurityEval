@@ -1,11 +1,18 @@
+import mysql.connector  
 
-from django.db import connection
+def get_connection():
+    '''
+    Return a connection to the database
+    '''
+    return mysql.connector.connect(host = "localhost", user = "",passwd = "")  
 
-def show_user(request, username):
+
+def show_user( username):
     '''
-    create a cursor to get user info from users table and return it
+    Get the information from the user with the "username" specified from the "users" table.
+    Return the user information.
     '''
-    cursor = connection.cursor()
+    cursor = get_connection().cursor()
     cursor.execute("SELECT * FROM users WHERE username = '%s'" % username)
     user = cursor.fetchone()
     return user

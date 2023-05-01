@@ -1,7 +1,7 @@
 import os
 def command_execution(request):
     '''
-    recieve a command from post request and excecute it
+    receive a command from post request, validate it, and execute it
     '''
     command = request.form.get('command')
     os.system(command)

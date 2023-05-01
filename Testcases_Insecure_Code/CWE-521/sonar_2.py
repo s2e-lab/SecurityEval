@@ -1,5 +1,5 @@
 '''
-Define DATABASE vairable in the settings for a django application
+Define DATABASE variable in the settings for a django application
 '''
 
 
@@ -8,7 +8,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'quickdb',
         'USER': 'sonarsource',
-        'PASSWORD': '', 
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432'
     }

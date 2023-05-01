@@ -1,10 +1,14 @@
 
-from urllib3 import HTTPResponse
+from flask import Flask, request
+app = Flask(__name__)
 
-def getFileData(request):
+@app.route("/filedata")
+def getFileData():
     '''
-    get filename from request argument and return the data of the file as HttpResponse
+    Get the filename from the request argument,
+    validate the filename,
+    and return the data of the file.
     '''
-    filename = request.GET.get('p')
+    filename = request.args.get('filename')
     data = open(filename, 'rb').read()
-    return HTTPResponse(data)
+    return data

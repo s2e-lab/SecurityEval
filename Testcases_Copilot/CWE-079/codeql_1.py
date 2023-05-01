@@ -5,9 +5,9 @@ app = Flask(__name__)
 @app.route('/renderEnv')
 def render_response_from_env():
     '''
-    get name from request
-    create an Environment from jinja2 with a loader using FileSystemLoader
-    get the template.html from the enviorment and render it
+    get the argument "name" from request, 
+    create a jinja2 Environment,
+    get the template.html from the environment, and render it.
     '''
     name = request.args.get('name')
     env = Environment(loader=FileSystemLoader('.'))

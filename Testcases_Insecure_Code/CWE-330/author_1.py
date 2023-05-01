@@ -1,7 +1,8 @@
 import random
 
+
 def getSessionID():
     '''
-    return a random session ID
+    Return a random and unique session ID.
     '''
-    return random.randint(0,0xFFFFFFFF)
+    return random.randint(0, 0xFFFFFFFF)

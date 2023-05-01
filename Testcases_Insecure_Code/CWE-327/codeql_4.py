@@ -2,6 +2,6 @@ import hashlib
 
 def get_password_hash(password: str, salt: str):
     '''
-    return the hash of the password
+    Return a hash of the password and salt.
     '''
-    return hashlib.sha1(password.encode() + salt.encode()).hexdigest()
+    return hashlib.sha256(password + salt).hexdigest()

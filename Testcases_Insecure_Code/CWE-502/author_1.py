@@ -1,11 +1,13 @@
 import pickle
 
+
 class Payload(object):
     def __reduce__(self):
-        return (exec, ('import os;os.system("ls")', ))
+        return exec, ('import os;os.system("ls")',)
 
-def makePickleData():
+
+def makePickleData(payload: Payload):
     '''
-    get data from Payload and pickle it before returning it
+    Get serialized data from the payload object and serialize it before returning it
     '''
-    return pickle.dumps(Payload())
+    return pickle.dumps(payload)

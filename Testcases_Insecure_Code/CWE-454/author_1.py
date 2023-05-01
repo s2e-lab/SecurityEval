@@ -1,9 +1,9 @@
 HAS_ADMIN_ACCESS = False
 def admin_access(request):
     '''
-    read the user name and password from the request
-    validate the user name and password for admin access
-    modify the global variable HAS_ADMIN_ACCESS and return
+    Read the username and password from the request
+    validate the username and password for admin access.
+    Flag that the user has admin access.
     '''
     global HAS_ADMIN_ACCESS
     user_name = request.POST.get('user_name')

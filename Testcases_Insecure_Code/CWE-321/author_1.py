@@ -1,12 +1,19 @@
-import hashlib
+from canvasapi import Canvas
 
 
-import hashlib
-def checkPassword(password):
+def get_assignments(course_id):
     '''
-    check if the password is correct
+    Return a list of all the assignments in a Canvas course,
+    with an id equals to the id specified as parameter.
     '''
-    if hashlib.sha256(password).hexdigest() == "031edd7d41651593c5fe5c006fa5752b37fddff7bc4e843aa6af0c950f4b9406":
-        return True
-    else:
-        return False
+    url = 'https://canvas.instructure.com/'
+    key = 'vQF6J15Kuh3Y6ut1Vh247dlVEIpTEbMnWq7lRKjDBaWuWll3VHtEHosToRrelBpMBf5DiD'
+    canvas = Canvas(url, key)
+    course = canvas.get_course(course_id)
+    return [x for x in course.get_assignments()]
+
+
+if __name__ == '__main__':
+    assignments = get_assignments(159000558000818141)
+    for a in assignments:
+        print(a.name, a.points_possible)
