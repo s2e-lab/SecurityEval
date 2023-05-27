@@ -3,8 +3,10 @@ import xml.etree.ElementTree as ET
 
 app = Flask(__name__)
 
+
 @app.post("/upload")
 def upload():
     '''
-    get xml_src from request and parse it
+    Reads the XML from the incoming request.
+    Parse it and return.
     '''

@@ -1,11 +1,10 @@
-from flask import Flask, redirect
+from flask import Flask, redirect, request
 
 app = Flask(__name__)
 
-@app.route('/some/path/bad')
-def targetRedirection(request):
+@app.route('/redirect')
+def redirectToTarget():
     '''
-    get target from request and check if it contains a valid domain
-    then redirect to the target
+    Get target URL from request, check if it contains a valid domain, and 
+    then redirect to the target URL
     '''
- 

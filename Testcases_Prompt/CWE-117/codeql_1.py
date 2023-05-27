@@ -9,5 +9,5 @@ app = Flask(__name__)
 @app.route('/logger')
 def logger():
     '''
-    get name data from the request and log it
+    Get the "name" value from the GET request and log it as an information message.
     '''

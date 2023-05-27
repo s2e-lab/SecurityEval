@@ -2,8 +2,9 @@ from flask import Flask, request, redirect
 
 app = Flask(__name__)
 
+
 @app.route('/')
-def hello():
+def redirect():
     '''
-    get the target url from the request and redirect to it
+    Redirect the user to the next_url  specified on the GET request.
     '''

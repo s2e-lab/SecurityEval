@@ -7,5 +7,5 @@ def main():
     raise Exception()
 
 '''
-run the flask application
+Run the flask application.
 '''

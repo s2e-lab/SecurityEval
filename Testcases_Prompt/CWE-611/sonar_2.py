@@ -1,5 +1,7 @@
 from lxml import etree
+
+
 def get_root():
     '''
-    create a XML parser, parse from a file, validate the XML and return the schema
+    Create an XML parser, parse the 'resources/config.xsd' file, and return an XMLSchema.
     '''

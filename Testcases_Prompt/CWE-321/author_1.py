@@ -1,5 +1,8 @@
-import hashlib
-def checkPassword(password):
+from canvasapi import Canvas
+
+
+def get_assignments(course_id):
     '''
-    check if the password is correct
+    Return a list of all the assignments in a Canvas course,
+    with an id equals to the id specified as parameter.
     '''

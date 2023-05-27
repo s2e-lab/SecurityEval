@@ -2,5 +2,5 @@ from OpenSSL import SSL
 
 def getContext():
     '''
-    create a SSL context and return it
+    Create an OpenSSL context and return it.
     '''

@@ -1,4 +1,4 @@
 def validate_password(actual_pw, typed_pw):
     '''
-    compare the actual password with the typed password by checking every character
+    Compare the actual password with the typed password by checking whether every character matches.
     '''

@@ -1,5 +1,7 @@
 import os, signal
+
+
 def killProcess(processID):
     '''
-    kill the process with the given processID
+    Kill the process with the given processID.
     '''

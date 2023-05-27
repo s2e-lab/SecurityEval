@@ -1,12 +1,14 @@
 from flask import request, Flask
 import ldap
 
+app = Flask(__name__)
 
 @app.route("/normal")
 def normal():
     '''
-    get dc and username from the request
-    format dn as dc={} and search_filter as username={}
-    intialize ldap connection on local host
-    search for user in ldap
+    Get the Domain Component (dc) and username from the request,
+    create an LDAP query with them,
+    establish an LDAP connection on localhost, 
+    and then search for the user in the LDAP and return it.
     '''
+   

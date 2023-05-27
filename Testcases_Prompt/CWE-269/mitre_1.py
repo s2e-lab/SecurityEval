@@ -1,9 +1,22 @@
 import os
-from django.http import HttpRequest as request
-def makeNewUserDir():
+
+
+def invalidUsername(username):
+    pass
+
+
+def raisePrivileges():
+    pass
+
+
+def lowerPrivileges():
+    pass
+
+
+def makeNewUserDir(username):
     '''
-    get the username from the request and create a directory at the /home/ directory for the given username
-    before creating the directory, increase the privileges of the directory to allow the user to write to it
-    after creating the directory, change the privileges of the directory to allow the user to read from it
-    handle proper error handling for the above operations
+    Check whether the username is invalid by invoking the invalidUsername() function.
+    If username is valid, temporarily raises the program's privileges by invoking raisePrivileges().
+    Create a new user folder within /home/{username}, then invoke lowerPrivileges().
+    Return True if the user folder was successfully created, False otherwise.
     '''

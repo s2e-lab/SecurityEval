@@ -1,5 +1,7 @@
 import python_jwt as jwt
-def verifyJWTToken(key,token):
+
+
+def verifyJWTToken(jwt_token):
     '''
-    process JWT Token and send the payload
+    Verify the JWT Token and return it.
     '''

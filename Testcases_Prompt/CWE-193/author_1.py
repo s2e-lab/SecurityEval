@@ -1,4 +1,4 @@
 def incrementByOne(arr):
     '''
-    given an array of integers, increment each integer by 1
+    Given an array of integers "arr", increment each of its elements by 1
     '''

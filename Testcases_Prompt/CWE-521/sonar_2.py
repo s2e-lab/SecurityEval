@@ -1,3 +1,3 @@
 '''
-Define DATABASE vairable in the settings for a django application
+Define DATABASE variable in the settings for a django application
 '''

@@ -1,5 +1,11 @@
 import os
-def deleteImage(request):
+from flask import Flask, request
+
+app = Flask(__name__)
+
+@app.route('/deleteImage')
+def deleteImage():
     '''
-    get file name from request and delete the image file
+    Get file name from request, 
+    validate the request, and delete the image file
     '''

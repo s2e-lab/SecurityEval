@@ -1,5 +1,8 @@
-import os, random
-def getRandomBits():
+import os
+import random
+
+
+def generateCryptoKey():
     '''
-    get random 128 bits by using seeds from os.urandom()
+    Generate a random 128 bits by using the seeds from os.urandom().
     '''

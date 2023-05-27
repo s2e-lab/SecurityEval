@@ -1,6 +1,8 @@
-from Crypto.Cipher import DES
+from Crypto.Cipher import *
 
-def send_encrypted(channel, message):
+
+def send_encrypted(secret_key, channel, message):
     '''
-    encrypt the message after creating a chiper and send it over the channel
+    Encrypt the message after creating a cipher,
+    and send it over the channel passed as parameter.
     '''
