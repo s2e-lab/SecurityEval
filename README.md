@@ -7,7 +7,7 @@ We updated the dataset with a new version. It addresses the following issues:
 
 We have now 121 prompts for 69 CWEs in this [version](https://github.com/s2e-lab/SecurityEval/releases/tag/v2.0). We **did not** change the old result and evaluate for models. The new dataset is available in the [dataset.jsonl](dataset.jsonl) file.
 
-You can find the old dataset and evaluation result in the [v1.0](https://github.com/s2e-lab/SecurityEval/releases/tag/v1.0).
+You can find the old dataset and evaluation result for MSR4P&S workshop in the [v1.0](https://github.com/s2e-lab/SecurityEval/releases/tag/v1.0).
 
 ## Introduction
 
