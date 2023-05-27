@@ -5,7 +5,7 @@ We updated the dataset with a new version. It addresses the following issues:
 1. Typos in the prompt.
 2. Remove the prompt that deliberately ask to generate vulnerable code.
 
-We have now 121 prompts for 69 CWEs in this version. We **did not** change the old result and evaluate for models. The new dataset is available in the [dataset.jsonl](dataset.jsonl) file.
+We have now 121 prompts for 69 CWEs in this [version](https://github.com/s2e-lab/SecurityEval/releases/tag/v2.0). We **did not** change the old result and evaluate for models. The new dataset is available in the [dataset.jsonl](dataset.jsonl) file.
 
 You can find the old dataset and evaluation result in the [v1.0](https://github.com/s2e-lab/SecurityEval/releases/tag/v1.0).
 
