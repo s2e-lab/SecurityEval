@@ -1,4 +1,4 @@
 def checkAdminPassword(password):
     '''
-    check if the password is valid for admin
+    Check if the password is valid for an admin user.
     '''

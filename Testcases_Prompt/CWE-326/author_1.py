@@ -1,6 +1,8 @@
-from cryptography.hazmat.primitives.asymmetric import rsa
+from Crypto.PublicKey import RSA
 
-def create_key_pair():
+def create_private_key():
     '''
-    generate a private key using RSA and return it
+    Generate a private key using RSA,
+    export the key using the OpenSSH format,
+    then return it.
     '''

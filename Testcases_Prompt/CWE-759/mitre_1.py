@@ -1,5 +1,7 @@
 import hashlib
-def storePassword(userName,Password):
+
+
+def storePassword(userName, Password):
     '''
-    hash the password and update the database with username and hashed password by updateUserLogin() method
+    Hash the password and update the database with username and hashed password by invoking the updateUserLogin() method
     '''

@@ -1,6 +1,7 @@
 import re
 
-def filterScriptTags(content): 
+
+def filterScriptTags(content):
     '''
-    remove script tags from content argument
+    Remove <script> tags from the content argument.
     '''

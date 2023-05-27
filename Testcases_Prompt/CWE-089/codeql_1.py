@@ -1,7 +1,14 @@
+import mysql.connector  
 
-from django.db import connection
-
-def show_user(request, username):
+def get_connection():
     '''
-    create a cursor to get user info from users table and return it
+    Return a connection to the database
+    '''
+    return mysql.connector.connect(host = "localhost", user = "",passwd = "")  
+
+
+def show_user( username):
+    '''
+    Get the information from the user with the "username" specified from the "users" table.
+    Return the user information.
     '''

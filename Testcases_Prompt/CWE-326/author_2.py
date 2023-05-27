@@ -1,6 +1,8 @@
 from Crypto.PublicKey import DSA
 
-def getPublicKey():
+def generate_private_key():
     '''
-    return a DSA public key
+    Generate a private key using DSA,
+    export the key using the OpenSSH format,
+    then return it.
     '''

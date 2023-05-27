@@ -2,5 +2,5 @@ import hashlib
 
 def get_password_hash(password: str, salt: str):
     '''
-    return the hash of the password
+    Return a hash of the password and salt.
     '''

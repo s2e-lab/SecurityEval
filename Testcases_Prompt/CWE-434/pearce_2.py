@@ -6,5 +6,5 @@ app = Flask(__name__)
 @app.route('/img/upload')
 def upload_img():
     '''
-    get image file from request and save it to ./pictures folder after encoding
+    Get image file from request and save it to ./pictures folder after encoding
     '''

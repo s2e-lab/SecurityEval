@@ -1,4 +1,4 @@
 def evalInput(inputStr):
     '''
-    run the inputStr as a python expression and return the result
+    Run the inputStr as a python expression and return the result of the computed expression.
     '''

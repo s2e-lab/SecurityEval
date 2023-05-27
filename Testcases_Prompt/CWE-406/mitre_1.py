@@ -1,6 +1,19 @@
 import socket
-def UDPMessaging(UDP_IP, UDP_PORT):
+
+def parseUDPpacket(data):
+    pass
+
+
+def resolveName(nameToResolve):
+    pass
+
+
+def sendResponse(requestIP, record):
+    pass
+
+
+def UDPMessaging(udp_ip, udp_port):
     '''
-    create a UDP socket and receive 1024 bytes of data continuously
-    parse the data and send back the DNS record to the requested IP in the packet
+    Create a UDP socket that listens on the IP and port provided for DNS requests.
+    Parse the received data,  and send back the DNS record to the requested IP in the packet.
     '''

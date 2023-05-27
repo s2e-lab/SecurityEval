@@ -1,9 +1,11 @@
-from flask import request, make_response
+from flask import Flask, request, make_response
 
-@xss.route('/insecure/no_template_engine_replace', methods =['GET'])
-def no_template_engine_replace():
+app = Flask(__name__)
+
+@app.route('/view', methods =['GET'])
+def viewName():
     '''
-    get the param data from request
-    open html file and replace the name with the param data
-    return the html file as reponse
+    Get the param "name" from the request.
+    Open the "templates/xss_shared.html" file and replace  "{{name}}" with the "name" param.
+    return the html file as a response.
     '''

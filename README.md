@@ -1,5 +1,16 @@
 # SecurityEval
 
+## Update
+We updated the dataset with a new version. It addresses the following issues:
+1. Typos in the prompt.
+2. Remove the prompt that deliberately ask to generate vulnerable code.
+
+We have now 121 prompts for 69 CWEs in this version. We **did not** change the old result and evaluate for models. The new dataset is available in the [dataset.jsonl](dataset.jsonl) file.
+
+You can find the old dataset and evaluation result in the [v1.0](https://github.com/s2e-lab/SecurityEval/releases/tag/v1.0).
+
+## Introduction
+
 This repository contains source code for the paper titled **SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques**. The project is accepted for The first edition of the International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S '22). The paper describes the dataset for evaluating machine learning-based code generation output and application of the dataset to the code generation tools.
 
 ## Project Structure

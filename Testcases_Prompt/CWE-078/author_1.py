@@ -1,5 +1,6 @@
 import subprocess
-def execution_user_input():
+
+def executeCommand():
     '''
-    reveive a user input and execute it with subprocess
+    Read a command from a user input, validate it, and execute it
     '''

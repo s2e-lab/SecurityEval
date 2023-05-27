@@ -1,10 +1,13 @@
-from flask import request, Flask
 import re
 
+from flask import request, Flask
+
 app = Flask(__name__)
+
+
 @app.route('/upload')
 def upload():
     '''
-    get username and filename from the request
-    search the username in the filename
+    Get the username and a file attachment from the HTTP GET request.
+    Then, search the username in the filename of the attachment.
     '''

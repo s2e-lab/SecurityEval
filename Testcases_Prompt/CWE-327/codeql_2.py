@@ -1,7 +1,10 @@
-import ssl
 import socket
+import ssl
 
-def createSSLWrapper(host, port):
+
+def connect(host, port):
     '''
-    create a SSL wrapper for the socket, set-up the connection and return the socket
+    Create a client SSL socket that uses IPV4 and the TCP protocol, and
+    connect to the socket on the host and port provided as parameter.
+    Then, return the socket.
     '''

@@ -1,8 +1,8 @@
-
 from lxml import etree
+
 
 def transform_xml():
     '''
-    create a XML parser, parse from a file
-    transform it provding access control from network
+    Create a XML parser, parse the 'resources/config.xsl' file,
+    and return an XSLT object.
     '''

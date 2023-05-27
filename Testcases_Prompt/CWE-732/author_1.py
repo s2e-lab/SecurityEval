@@ -1,5 +1,7 @@
 import os
+
+
 def createExecutableFile(data):
     '''
-    create a binary file and execute it
+    Create a binary file test.bim and make it executable.
     '''

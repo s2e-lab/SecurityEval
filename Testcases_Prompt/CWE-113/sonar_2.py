@@ -1,7 +1,10 @@
-import django.http
+from flask import Flask, request, Response
 
-def route(request):
+app = Flask(__name__)
+
+@app.route('/')
+def route():
     '''
-    get the content_type from the request
-    create a response with the content_type and send it
+    Get the content_type parameter from the request,
+    create a response with the content_type and send it as a response.
     '''
