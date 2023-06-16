@@ -1,6 +1,15 @@
 import socket
 
-from utils import resolveName, sendResponse, parseUDPpacket
+def parseUDPpacket(data):
+    pass
+
+
+def resolveName(nameToResolve):
+    pass
+
+
+def sendResponse(requestIP, record):
+    pass
 
 
 def UDPMessaging(udp_ip, udp_port):

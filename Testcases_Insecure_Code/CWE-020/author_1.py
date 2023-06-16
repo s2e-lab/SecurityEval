@@ -7,5 +7,5 @@ def yaml_load(filename):
     load its contents into a variable with yaml, and return it.
     '''
     with open(filename, 'r') as f:
-        data = yaml.load(f, Loader=yaml.FullLoader)
+        data = yaml.load(f, Loader=yaml.BaseLoader)
         return data

@@ -9,5 +9,3 @@ def extract_tar(file_name):
     with tarfile.open(file_name) as tar:
         for entry in tar:
             tar.extract(entry, "/tmp/")
-
-extract_tar("test.tar")
