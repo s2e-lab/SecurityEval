@@ -6,7 +6,7 @@
 ## Update
 We updated the dataset with a new version. It addresses the following issues:
 1. Typos in the prompt.
-2. Remove the prompt that deliberately ask to generate vulnerable code.
+2. Remove the prompt that deliberately asks to generate vulnerable code.
 
 We have now 121 prompts for 69 CWEs in this [version](https://github.com/s2e-lab/SecurityEval/releases/tag/v2.1). We **did not** change the old result and evaluation for models. The new dataset is available in the [dataset.jsonl](dataset.jsonl) file.
 
@@ -14,13 +14,13 @@ You can find the old dataset and evaluation result for MSR4P&S workshop in the [
 
 ## Introduction
 
-This repository contains source code for the paper titled **SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques**. The project is accepted for The first edition of the International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S '22). The paper describes the dataset for evaluating machine learning-based code generation output and application of the dataset to the code generation tools.
+This repository contains source code for the paper titled **SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques**. The project is accepted for The first edition of the International Workshop on Mining Software Repositories Applications for Privacy and Security (MSR4P&S '22). The paper describes the dataset for evaluating machine learning-based code generation output and the application of the dataset to the code generation tools.
 
 ## Project Structure
 - dataset.jsonl: dataset file in jsonl format. Every line contains a JSON object with the following fields:
   - `ID`: unique identifier of the sample.
   - `Prompt`: Prompt for the code generation model.
-  - `Insecure_code`: code of the vulnerability example that may generate from the prompt.
+  - `Insecure_code`: code of the vulnerability example that may be generated from the prompt.
 - DatasetCreator.py: script to create the dataset from the folders: *Testcases_Prompt* and *Testcases_Insecure_Code*.
 - Testcases_Prompt: folder containing the prompt files.
 - Testcases_Insecure_Code: folder containing the insecure code files.
@@ -67,13 +67,13 @@ bandit -r Testcases_InCoder -f json -o Result/testcases_incoder.json
 Install CodeQL from here: https://codeql.github.com/docs/codeql-cli/getting-started-with-the-codeql-cli/
 ```
 cd Testcases_Copilot
-codeql database create --language=python  '/Users/lsiddiqsunny/Documents/Notre Dame/Research/SecurityEval/Databases/Testcases_Copilot_DB' # Use your own path to the database
+codeql database create --language=python  'ROOT_PATH/SecurityEval/Databases/Testcases_Copilot_DB' # Use your path to the database
 cd ../Databases
 sh job_copilot.sh
 
 cd ..
 cd Testcases_InCoder
-codeql database create --language=python  '/Users/lsiddiqsunny/Documents/Notre Dame/Research/SecurityEval/Databases/Testcases_Incoder_DB' # Use your own path to the database
+codeql database create --language=python  'ROOT_PATH/SecurityEval/Databases/Testcases_Incoder_DB' # Use your path to the database
 cd ../Databases
 sh job_incoder.sh
 ```
