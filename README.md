@@ -36,6 +36,15 @@ This repository contains source code for the paper titled **SecurityEval Dataset
   - testcases.json: contains the list of files and folders in *Testcases_Prompt*
   - CSVConvertor.py: script to convert the CSV files to from json file(i.e. testcases.json)
 
+## Loading the dataset of prompts from HuggingFace
+
+The dataset is now published on HuggingFace. You can load it as follows:
+
+```
+from datasets import load_dataset
+dataset = load_dataset("s2e-lab/SecurityEval")
+```
+
 ## Usage of the Analyzer
 Dependencies:
 - Python: 3.9.4
