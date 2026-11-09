@@ -9,15 +9,15 @@ for root, dirs, files in os.walk(dirPath):
         if file.endswith('.py'):
             data = {}
             data['ID'] = root.split('/')[2]+'_'+file
-            with open(os.path.join(root, file)) as f:
+            with open(os.path.join(root, file), encoding='utf-8') as f:
                 data['Prompt']  = f.read().strip()
-            with open(os.path.join('./Testcases_Insecure_Code/'+root.split('/')[2], file)) as f:
+            with open(os.path.join('./Testcases_Insecure_Code/'+root.split('/')[2], file), encoding='utf-8') as f:
                 data['Insecure_code']  = f.read().strip()
             print(data)
             dataset.append(data)
 
 dataset = sorted(dataset, key=lambda x: x['ID'])
-with open('dataset.jsonl', 'w') as f:
+with open('dataset.jsonl', 'w', encoding='utf-8') as f:
     for item in dataset:
         f.write(json.dumps(item)+'\n')
             
